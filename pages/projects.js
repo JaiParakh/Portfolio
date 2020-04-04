@@ -1,0 +1,52 @@
+import React from 'react'
+import Layout from './../components/Layout';
+import ProjectList from './../components/ProjectList';
+
+const projects = [
+	{
+		name: "Rex",
+		description: ["An all in one CLI Application that can: ", "Parse the mail body for dates and then add a Google Calendar Event", "Parse Medium Daily Digest Mails and open blog links in the browser.", "Upload, download and share files on Google Drive", "Maintain a record of all applied internships/jobs", "Manage Todos"], 
+		technologies: ["Node.js", "Javascript", "GMAIL API","Google Drive API","Google Calendar API."],
+		link: "https://github.com/JaiParakh/Rex",
+		images: []
+	},
+	{
+		name: "Cura (Google Build For Digital India)",
+		description: ["Cura is an application that lets users add the food items they are allergic to and predicts the ingredient/item responsible, using Apriori algorithm.","My team was amongst the 61 teams selected across India from 3.3k+ teams."],
+		technologies: ["Javascript", "React", "Node.js", "Python", "Firebase ML Kit", "Firebase"],
+		link: "https://github.com/JaiParakh/Cura",
+		images: []
+	},
+	{
+		name: "Study Jamm",
+		description: ["A MERN Stack application that lets users ﬁnd mentors in their vicinity.","It Detects the user's location and plots all tutors within the specified radius.","It was up and running for 6 days, during which it had 60 users registered on the platform and around 8 active users on the day of project evaluation."],
+		technologies: ["MongoDB", "React", "Node.js", "Express", "Openlayers Map"],
+		link: "https://github.com/JaiParakh/Study-Jamm",
+		images: []
+	}
+]
+
+export default class Projects extends React.Component {
+    
+    render() {
+        return (
+            <Layout>
+                <div className="container">
+				{
+					projects.map((p) => {
+						return <ProjectList name={p.name} body={p.description} technologies={p.technologies} link={p.link} images={p.images} />
+					})
+				}
+				</div>
+				<style jsx>{`
+				.container{
+					max-height: 100vh;
+					overflow-y: scroll;
+					padding: 1em 1em 2em 0em;
+				}
+				.container::-webkit-scrollbar { width: 0 !important }
+			`}</style>
+            </Layout>
+        )
+    }
+}
