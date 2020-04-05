@@ -25,7 +25,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
 var Layout = function Layout(props) {
   return __jsx("div", {
-    className: "jsx-1564653162" + " " + "row bg",
+    className: "jsx-2939589825" + " " + "row bg",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 7
@@ -42,7 +42,7 @@ var Layout = function Layout(props) {
     href: "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css",
     integrity: "sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm",
     crossOrigin: "anonymous",
-    className: "jsx-1564653162",
+    className: "jsx-2939589825",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 9
@@ -55,16 +55,16 @@ var Layout = function Layout(props) {
     },
     __self: this
   }), __jsx("div", {
-    className: "jsx-1564653162" + " " + "col-md-9",
+    className: "jsx-2939589825" + " " + "col-md-9",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 12
     },
     __self: this
   }, props.children), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
-    id: "1564653162",
+    id: "2939589825",
     __self: this
-  }, ".bg.jsx-1564653162{background-color:#1e2227;height:100vh;color:#fff;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkQ6XFxDb2xsZWdlXFxQcm9qZWN0c1xcV2ViLURldlxcUG9ydGZvbGlvXFxjb21wb25lbnRzXFxMYXlvdXQuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBY3dCLEFBR3NDLHlCQUNaLGFBQ0YsV0FDRSwwRUFDakIiLCJmaWxlIjoiRDpcXENvbGxlZ2VcXFByb2plY3RzXFxXZWItRGV2XFxQb3J0Zm9saW9cXGNvbXBvbmVudHNcXExheW91dC5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBIZWFkIGZyb20gJ25leHQvaGVhZCc7XHJcbmltcG9ydCBTaWRlcGFuZWwgZnJvbSAnLi9TaWRlcGFuZWwnO1xyXG5cclxuY29uc3QgTGF5b3V0ID0gKHByb3BzKSA9PiB7XHJcbiAgICBcclxuICAgIHJldHVybiAoXHJcbiAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJyb3cgYmdcIj5cclxuICAgICAgICAgICAgPEhlYWQ+XHJcbiAgICAgICAgICAgIDxsaW5rIHJlbD1cInN0eWxlc2hlZXRcIiBocmVmPVwiaHR0cHM6Ly9tYXhjZG4uYm9vdHN0cmFwY2RuLmNvbS9ib290c3RyYXAvNC4wLjAvY3NzL2Jvb3RzdHJhcC5taW4uY3NzXCIgaW50ZWdyaXR5PVwic2hhMzg0LUduNTM4NHhxUTFhb1dYQSswNThSWFB4UGc2Znk0SVd2VE5oMEUyNjNYbUZjSmxTQXdpR2dGQVcvZEFpUzZKWG1cIiBjcm9zc09yaWdpbj1cImFub255bW91c1wiIC8+XHJcbiAgICAgICAgICAgIDwvSGVhZD5cclxuICAgICAgICAgICAgPFNpZGVwYW5lbCAvPlxyXG4gICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImNvbC1tZC05XCI+XHJcbiAgICAgICAgICAgICAgICB7cHJvcHMuY2hpbGRyZW59XHJcbiAgICAgICAgICAgIDwvZGl2PlxyXG4gICAgICAgICAgICA8c3R5bGUganN4PntgXHJcbiAgICAgICAgLmJne1xyXG4gICAgICAgICAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjMWUyMjI3O1xyXG4gICAgICAgICAgICBoZWlnaHQ6IDEwMHZoO1xyXG4gICAgICAgICAgICBjb2xvcjogI2ZmZjtcclxuICAgICAgICAgICAgZGlzcGxheTogZmxleDtcclxuICAgICAgICB9XHJcbiAgICAgIGB9PC9zdHlsZT5cclxuICAgICAgICA8L2Rpdj5cclxuICAgIClcclxuICAgIFxyXG59XHJcblxyXG5leHBvcnQgZGVmYXVsdCBMYXlvdXQ7Il19 */\n/*@ sourceURL=D:\\\\College\\\\Projects\\\\Web-Dev\\\\Portfolio\\\\components\\\\Layout.js */"));
+  }, ".bg.jsx-2939589825{background-color:#1e2227;overflow-x:hidden;color:#fff;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkQ6XFxDb2xsZWdlXFxQcm9qZWN0c1xcV2ViLURldlxcUG9ydGZvbGlvXFxjb21wb25lbnRzXFxMYXlvdXQuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBY3dCLEFBR3NDLHlCQUNQLGtCQUNQLFdBQ0UsMEVBQ2pCIiwiZmlsZSI6IkQ6XFxDb2xsZWdlXFxQcm9qZWN0c1xcV2ViLURldlxcUG9ydGZvbGlvXFxjb21wb25lbnRzXFxMYXlvdXQuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgSGVhZCBmcm9tICduZXh0L2hlYWQnO1xyXG5pbXBvcnQgU2lkZXBhbmVsIGZyb20gJy4vU2lkZXBhbmVsJztcclxuXHJcbmNvbnN0IExheW91dCA9IChwcm9wcykgPT4ge1xyXG4gICAgXHJcbiAgICByZXR1cm4gKFxyXG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPVwicm93IGJnXCI+XHJcbiAgICAgICAgICAgIDxIZWFkPlxyXG4gICAgICAgICAgICA8bGluayByZWw9XCJzdHlsZXNoZWV0XCIgaHJlZj1cImh0dHBzOi8vbWF4Y2RuLmJvb3RzdHJhcGNkbi5jb20vYm9vdHN0cmFwLzQuMC4wL2Nzcy9ib290c3RyYXAubWluLmNzc1wiIGludGVncml0eT1cInNoYTM4NC1HbjUzODR4cVExYW9XWEErMDU4UlhQeFBnNmZ5NElXdlROaDBFMjYzWG1GY0psU0F3aUdnRkFXL2RBaVM2SlhtXCIgY3Jvc3NPcmlnaW49XCJhbm9ueW1vdXNcIiAvPlxyXG4gICAgICAgICAgICA8L0hlYWQ+XHJcbiAgICAgICAgICAgIDxTaWRlcGFuZWwgLz5cclxuICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJjb2wtbWQtOVwiPlxyXG4gICAgICAgICAgICAgICAge3Byb3BzLmNoaWxkcmVufVxyXG4gICAgICAgICAgICA8L2Rpdj5cclxuICAgICAgICAgICAgPHN0eWxlIGpzeD57YFxyXG4gICAgICAgIC5iZ3tcclxuICAgICAgICAgICAgYmFja2dyb3VuZC1jb2xvcjogIzFlMjIyNztcclxuICAgICAgICAgICAgb3ZlcmZsb3cteDogaGlkZGVuO1xyXG4gICAgICAgICAgICBjb2xvcjogI2ZmZjtcclxuICAgICAgICAgICAgZGlzcGxheTogZmxleDtcclxuICAgICAgICB9XHJcbiAgICAgIGB9PC9zdHlsZT5cclxuICAgICAgICA8L2Rpdj5cclxuICAgIClcclxuICAgIFxyXG59XHJcblxyXG5leHBvcnQgZGVmYXVsdCBMYXlvdXQ7Il19 */\n/*@ sourceURL=D:\\\\College\\\\Projects\\\\Web-Dev\\\\Portfolio\\\\components\\\\Layout.js */"));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Layout);
@@ -137,30 +137,23 @@ var Logo = function Logo() {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-jsx/style */ "./node_modules/styled-jsx/style.js");
-/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
 var _jsxFileName = "D:\\College\\Projects\\Web-Dev\\Portfolio\\components\\ProjectList.js";
 
-
-var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 var ProjectList = function ProjectList(props) {
   return __jsx("div", {
-    className: "jsx-899628565",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 5
     },
     __self: this
-  }, __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
-    id: "899628565",
-    __self: this
-  }, "\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkQ6XFxDb2xsZWdlXFxQcm9qZWN0c1xcV2ViLURldlxcUG9ydGZvbGlvXFxjb21wb25lbnRzXFxQcm9qZWN0TGlzdC5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFNd0IiLCJmaWxlIjoiRDpcXENvbGxlZ2VcXFByb2plY3RzXFxXZWItRGV2XFxQb3J0Zm9saW9cXGNvbXBvbmVudHNcXFByb2plY3RMaXN0LmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IExpbmsgZnJvbSAnbmV4dC9saW5rJztcclxuXHJcbmNvbnN0IFByb2plY3RMaXN0ID0gKHByb3BzKSA9PiB7XHJcbiAgICByZXR1cm4oXHJcbiAgICAgICAgPGRpdj5cclxuICAgICAgICAgICAgXHJcbiAgICAgICAgICAgIDxzdHlsZSBqc3g+e2BcclxuICAgICAgICBcclxuICAgICAgICAgICAgYH08L3N0eWxlPlxyXG4gICAgICAgIDwvZGl2PlxyXG4gICAgKVxyXG59XHJcblxyXG5leHBvcnQgZGVmYXVsdCBQcm9qZWN0TGlzdDsiXX0= */\n/*@ sourceURL=D:\\\\College\\\\Projects\\\\Web-Dev\\\\Portfolio\\\\components\\\\ProjectList.js */"));
+  });
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (ProjectList);
@@ -210,7 +203,7 @@ var Sidepanel = /*#__PURE__*/function (_React$Component) {
     key: "render",
     value: function render() {
       return __jsx("div", {
-        className: "jsx-679792809" + " " + "col-md-3",
+        className: "jsx-1844270371" + " " + "col-md-3",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 6
@@ -223,16 +216,16 @@ var Sidepanel = /*#__PURE__*/function (_React$Component) {
         },
         __self: this
       }), __jsx("div", {
-        className: "jsx-679792809" + " " + "side-nav",
+        className: "jsx-1844270371" + " " + "side-nav",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 8
         },
         __self: this
       }, "This is the side panel."), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_5___default.a, {
-        id: "679792809",
+        id: "1844270371",
         __self: this
-      }, ".col-md-3.jsx-679792809{border-right:2px solid #fff;height:100%;padding-right:0px !important;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkQ6XFxDb2xsZWdlXFxQcm9qZWN0c1xcV2ViLURldlxcUG9ydGZvbGlvXFxjb21wb25lbnRzXFxTaWRlcGFuZWwuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBYXdCLEFBRzZDLDRCQUNoQixZQUNpQiw2QkFDakMiLCJmaWxlIjoiRDpcXENvbGxlZ2VcXFByb2plY3RzXFxXZWItRGV2XFxQb3J0Zm9saW9cXGNvbXBvbmVudHNcXFNpZGVwYW5lbC5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBMb2dvIGZyb20gJy4vTG9nbydcclxuXHJcbmNsYXNzIFNpZGVwYW5lbCBleHRlbmRzIFJlYWN0LkNvbXBvbmVudCB7XHJcbiAgICByZW5kZXIoKXtcclxuICAgICAgICByZXR1cm4gKFxyXG4gICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImNvbC1tZC0zXCI+XHJcbiAgICAgICAgICAgICAgICA8TG9nbyAvPlxyXG4gICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJzaWRlLW5hdlwiPlxyXG4gICAgICAgICAgICAgICAgICAgIFRoaXMgaXMgdGhlIHNpZGUgcGFuZWwuXHJcbiAgICAgICAgICAgICAgICA8L2Rpdj5cclxuICAgICAgICAgICAgICAgIFxyXG4gICAgICAgICAgICBcclxuICAgICAgICAgICAgXHJcbiAgICAgICAgICAgIDxzdHlsZSBqc3g+e2BcclxuICAgICAgICAgICAgLmNvbC1tZC0ze1xyXG4gICAgICAgICAgICAgICAgYm9yZGVyLXJpZ2h0OiAycHggc29saWQgI2ZmZjtcclxuICAgICAgICAgICAgICAgIGhlaWdodDogMTAwJTtcclxuICAgICAgICAgICAgICAgIHBhZGRpbmctcmlnaHQ6IDBweCAhaW1wb3J0YW50O1xyXG4gICAgICAgICAgICB9XHJcbiAgICAgICAgYH08L3N0eWxlPlxyXG4gICAgICAgICAgICA8L2Rpdj5cclxuICAgICAgICApO1xyXG4gICAgfVxyXG59XHJcblxyXG5leHBvcnQgZGVmYXVsdCBTaWRlcGFuZWw7Il19 */\n/*@ sourceURL=D:\\\\College\\\\Projects\\\\Web-Dev\\\\Portfolio\\\\components\\\\Sidepanel.js */"));
+      }, ".col-md-3.jsx-1844270371{border-right:2px solid #fff;padding-right:0px !important;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkQ6XFxDb2xsZWdlXFxQcm9qZWN0c1xcV2ViLURldlxcUG9ydGZvbGlvXFxjb21wb25lbnRzXFxTaWRlcGFuZWwuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBYXdCLEFBRzZDLDRCQUNDLDZCQUNqQyIsImZpbGUiOiJEOlxcQ29sbGVnZVxcUHJvamVjdHNcXFdlYi1EZXZcXFBvcnRmb2xpb1xcY29tcG9uZW50c1xcU2lkZXBhbmVsLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IExvZ28gZnJvbSAnLi9Mb2dvJ1xyXG5cclxuY2xhc3MgU2lkZXBhbmVsIGV4dGVuZHMgUmVhY3QuQ29tcG9uZW50IHtcclxuICAgIHJlbmRlcigpe1xyXG4gICAgICAgIHJldHVybiAoXHJcbiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiY29sLW1kLTNcIj5cclxuICAgICAgICAgICAgICAgIDxMb2dvIC8+XHJcbiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cInNpZGUtbmF2XCI+XHJcbiAgICAgICAgICAgICAgICAgICAgVGhpcyBpcyB0aGUgc2lkZSBwYW5lbC5cclxuICAgICAgICAgICAgICAgIDwvZGl2PlxyXG4gICAgICAgICAgICAgICAgXHJcbiAgICAgICAgICAgIFxyXG4gICAgICAgICAgICBcclxuICAgICAgICAgICAgPHN0eWxlIGpzeD57YFxyXG4gICAgICAgICAgICAuY29sLW1kLTN7XHJcbiAgICAgICAgICAgICAgICBib3JkZXItcmlnaHQ6IDJweCBzb2xpZCAjZmZmO1xyXG4gICAgICAgICAgICAgICAgcGFkZGluZy1yaWdodDogMHB4ICFpbXBvcnRhbnQ7XHJcbiAgICAgICAgICAgIH1cclxuICAgICAgICBgfTwvc3R5bGU+XHJcbiAgICAgICAgICAgIDwvZGl2PlxyXG4gICAgICAgICk7XHJcbiAgICB9XHJcbn1cclxuXHJcbmV4cG9ydCBkZWZhdWx0IFNpZGVwYW5lbDsiXX0= */\n/*@ sourceURL=D:\\\\College\\\\Projects\\\\Web-Dev\\\\Portfolio\\\\components\\\\Sidepanel.js */"));
     }
   }]);
 
@@ -6086,24 +6079,26 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement;
 
 
 
-var projects = [{
-  name: "Rex",
-  description: ["An all in one CLI Application that can: ", "Parse the mail body for dates and then add a Google Calendar Event", "Parse Medium Daily Digest Mails and open blog links in the browser.", "Upload, download and share files on Google Drive", "Maintain a record of all applied internships/jobs", "Manage Todos"],
-  technologies: ["Node.js", "Javascript", "GMAIL API", "Google Drive API", "Google Calendar API."],
-  link: "https://github.com/JaiParakh/Rex",
-  images: []
-}, {
+var projects = [
+/*{
+	name: "Rex",
+	description: ["An all in one CLI Application that can: ", "Parse the mail body for dates and then add a Google Calendar Event", "Parse Medium Daily Digest Mails and open blog links in the browser.", "Upload, download and share files on Google Drive", "Maintain a record of all applied internships/jobs", "Manage Todos"], 
+	technologies: ["Node.js", "Javascript", "GMAIL API","Google Drive API","Google Calendar API."],
+	link: "https://github.com/JaiParakh/Rex",
+	img: ""
+},*/
+{
   name: "Cura (Google Build For Digital India)",
   description: ["Cura is an application that lets users add the food items they are allergic to and predicts the ingredient/item responsible, using Apriori algorithm.", "My team was amongst the 61 teams selected across India from 3.3k+ teams."],
   technologies: ["Javascript", "React", "Node.js", "Python", "Firebase ML Kit", "Firebase"],
   link: "https://github.com/JaiParakh/Cura",
-  images: []
+  img: "Cura-3.jpg"
 }, {
   name: "Study Jamm",
   description: ["A MERN Stack application that lets users ﬁnd mentors in their vicinity.", "It Detects the user's location and plots all tutors within the specified radius.", "It was up and running for 6 days, during which it had 60 users registered on the platform and around 8 active users on the day of project evaluation."],
   technologies: ["MongoDB", "React", "Node.js", "Express", "Openlayers Map"],
   link: "https://github.com/JaiParakh/Study-Jamm",
-  images: []
+  img: "Study-Jamm-2.png"
 }];
 
 var Projects = /*#__PURE__*/function (_React$Component) {
@@ -6137,7 +6132,7 @@ var Projects = /*#__PURE__*/function (_React$Component) {
           body: p.description,
           technologies: p.technologies,
           link: p.link,
-          images: p.images,
+          img: p.img,
           __source: {
             fileName: _jsxFileName,
             lineNumber: 37
@@ -6147,7 +6142,7 @@ var Projects = /*#__PURE__*/function (_React$Component) {
       })), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_5___default.a, {
         id: "2381539818",
         __self: this
-      }, ".container.jsx-2381539818{max-height:100vh;overflow-y:scroll;padding:1em 1em 2em 0em;}.container.jsx-2381539818::-webkit-scrollbar{width:0 !important;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkQ6XFxDb2xsZWdlXFxQcm9qZWN0c1xcV2ViLURldlxcUG9ydGZvbGlvXFxwYWdlc1xccHJvamVjdHMuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBd0NnQixBQUd1QixBQUlnQyxpQkFIL0IsRUFHZ0MsZ0JBRjFCLHdCQUN6QiIsImZpbGUiOiJEOlxcQ29sbGVnZVxcUHJvamVjdHNcXFdlYi1EZXZcXFBvcnRmb2xpb1xccGFnZXNcXHByb2plY3RzLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0IGZyb20gJ3JlYWN0J1xyXG5pbXBvcnQgTGF5b3V0IGZyb20gJy4vLi4vY29tcG9uZW50cy9MYXlvdXQnO1xyXG5pbXBvcnQgUHJvamVjdExpc3QgZnJvbSAnLi8uLi9jb21wb25lbnRzL1Byb2plY3RMaXN0JztcclxuXHJcbmNvbnN0IHByb2plY3RzID0gW1xyXG5cdHtcclxuXHRcdG5hbWU6IFwiUmV4XCIsXHJcblx0XHRkZXNjcmlwdGlvbjogW1wiQW4gYWxsIGluIG9uZSBDTEkgQXBwbGljYXRpb24gdGhhdCBjYW46IFwiLCBcIlBhcnNlIHRoZSBtYWlsIGJvZHkgZm9yIGRhdGVzIGFuZCB0aGVuIGFkZCBhIEdvb2dsZSBDYWxlbmRhciBFdmVudFwiLCBcIlBhcnNlIE1lZGl1bSBEYWlseSBEaWdlc3QgTWFpbHMgYW5kIG9wZW4gYmxvZyBsaW5rcyBpbiB0aGUgYnJvd3Nlci5cIiwgXCJVcGxvYWQsIGRvd25sb2FkIGFuZCBzaGFyZSBmaWxlcyBvbiBHb29nbGUgRHJpdmVcIiwgXCJNYWludGFpbiBhIHJlY29yZCBvZiBhbGwgYXBwbGllZCBpbnRlcm5zaGlwcy9qb2JzXCIsIFwiTWFuYWdlIFRvZG9zXCJdLCBcclxuXHRcdHRlY2hub2xvZ2llczogW1wiTm9kZS5qc1wiLCBcIkphdmFzY3JpcHRcIiwgXCJHTUFJTCBBUElcIixcIkdvb2dsZSBEcml2ZSBBUElcIixcIkdvb2dsZSBDYWxlbmRhciBBUEkuXCJdLFxyXG5cdFx0bGluazogXCJodHRwczovL2dpdGh1Yi5jb20vSmFpUGFyYWtoL1JleFwiLFxyXG5cdFx0aW1hZ2VzOiBbXVxyXG5cdH0sXHJcblx0e1xyXG5cdFx0bmFtZTogXCJDdXJhIChHb29nbGUgQnVpbGQgRm9yIERpZ2l0YWwgSW5kaWEpXCIsXHJcblx0XHRkZXNjcmlwdGlvbjogW1wiQ3VyYSBpcyBhbiBhcHBsaWNhdGlvbiB0aGF0IGxldHMgdXNlcnMgYWRkIHRoZSBmb29kIGl0ZW1zIHRoZXkgYXJlIGFsbGVyZ2ljIHRvIGFuZCBwcmVkaWN0cyB0aGUgaW5ncmVkaWVudC9pdGVtIHJlc3BvbnNpYmxlLCB1c2luZyBBcHJpb3JpIGFsZ29yaXRobS5cIixcIk15IHRlYW0gd2FzIGFtb25nc3QgdGhlIDYxIHRlYW1zIHNlbGVjdGVkIGFjcm9zcyBJbmRpYSBmcm9tIDMuM2srIHRlYW1zLlwiXSxcclxuXHRcdHRlY2hub2xvZ2llczogW1wiSmF2YXNjcmlwdFwiLCBcIlJlYWN0XCIsIFwiTm9kZS5qc1wiLCBcIlB5dGhvblwiLCBcIkZpcmViYXNlIE1MIEtpdFwiLCBcIkZpcmViYXNlXCJdLFxyXG5cdFx0bGluazogXCJodHRwczovL2dpdGh1Yi5jb20vSmFpUGFyYWtoL0N1cmFcIixcclxuXHRcdGltYWdlczogW11cclxuXHR9LFxyXG5cdHtcclxuXHRcdG5hbWU6IFwiU3R1ZHkgSmFtbVwiLFxyXG5cdFx0ZGVzY3JpcHRpb246IFtcIkEgTUVSTiBTdGFjayBhcHBsaWNhdGlvbiB0aGF0IGxldHMgdXNlcnMg76yBbmQgbWVudG9ycyBpbiB0aGVpciB2aWNpbml0eS5cIixcIkl0IERldGVjdHMgdGhlIHVzZXIncyBsb2NhdGlvbiBhbmQgcGxvdHMgYWxsIHR1dG9ycyB3aXRoaW4gdGhlIHNwZWNpZmllZCByYWRpdXMuXCIsXCJJdCB3YXMgdXAgYW5kIHJ1bm5pbmcgZm9yIDYgZGF5cywgZHVyaW5nIHdoaWNoIGl0IGhhZCA2MCB1c2VycyByZWdpc3RlcmVkIG9uIHRoZSBwbGF0Zm9ybSBhbmQgYXJvdW5kIDggYWN0aXZlIHVzZXJzIG9uIHRoZSBkYXkgb2YgcHJvamVjdCBldmFsdWF0aW9uLlwiXSxcclxuXHRcdHRlY2hub2xvZ2llczogW1wiTW9uZ29EQlwiLCBcIlJlYWN0XCIsIFwiTm9kZS5qc1wiLCBcIkV4cHJlc3NcIiwgXCJPcGVubGF5ZXJzIE1hcFwiXSxcclxuXHRcdGxpbms6IFwiaHR0cHM6Ly9naXRodWIuY29tL0phaVBhcmFraC9TdHVkeS1KYW1tXCIsXHJcblx0XHRpbWFnZXM6IFtdXHJcblx0fVxyXG5dXHJcblxyXG5leHBvcnQgZGVmYXVsdCBjbGFzcyBQcm9qZWN0cyBleHRlbmRzIFJlYWN0LkNvbXBvbmVudCB7XHJcbiAgICBcclxuICAgIHJlbmRlcigpIHtcclxuICAgICAgICByZXR1cm4gKFxyXG4gICAgICAgICAgICA8TGF5b3V0PlxyXG4gICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJjb250YWluZXJcIj5cclxuXHRcdFx0XHR7XHJcblx0XHRcdFx0XHRwcm9qZWN0cy5tYXAoKHApID0+IHtcclxuXHRcdFx0XHRcdFx0cmV0dXJuIDxQcm9qZWN0TGlzdCBuYW1lPXtwLm5hbWV9IGJvZHk9e3AuZGVzY3JpcHRpb259IHRlY2hub2xvZ2llcz17cC50ZWNobm9sb2dpZXN9IGxpbms9e3AubGlua30gaW1hZ2VzPXtwLmltYWdlc30gLz5cclxuXHRcdFx0XHRcdH0pXHJcblx0XHRcdFx0fVxyXG5cdFx0XHRcdDwvZGl2PlxyXG5cdFx0XHRcdDxzdHlsZSBqc3g+e2BcclxuXHRcdFx0XHQuY29udGFpbmVye1xyXG5cdFx0XHRcdFx0bWF4LWhlaWdodDogMTAwdmg7XHJcblx0XHRcdFx0XHRvdmVyZmxvdy15OiBzY3JvbGw7XHJcblx0XHRcdFx0XHRwYWRkaW5nOiAxZW0gMWVtIDJlbSAwZW07XHJcblx0XHRcdFx0fVxyXG5cdFx0XHRcdC5jb250YWluZXI6Oi13ZWJraXQtc2Nyb2xsYmFyIHsgd2lkdGg6IDAgIWltcG9ydGFudCB9XHJcblx0XHRcdGB9PC9zdHlsZT5cclxuICAgICAgICAgICAgPC9MYXlvdXQ+XHJcbiAgICAgICAgKVxyXG4gICAgfVxyXG59Il19 */\n/*@ sourceURL=D:\\\\College\\\\Projects\\\\Web-Dev\\\\Portfolio\\\\pages\\\\projects.js */"));
+      }, ".container.jsx-2381539818{max-height:100vh;overflow-y:scroll;padding:1em 1em 2em 0em;}.container.jsx-2381539818::-webkit-scrollbar{width:0 !important;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkQ6XFxDb2xsZWdlXFxQcm9qZWN0c1xcV2ViLURldlxcUG9ydGZvbGlvXFxwYWdlc1xccHJvamVjdHMuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBd0NnQixBQUd1QixBQUlnQyxpQkFIL0IsRUFHZ0MsZ0JBRjFCLHdCQUN6QiIsImZpbGUiOiJEOlxcQ29sbGVnZVxcUHJvamVjdHNcXFdlYi1EZXZcXFBvcnRmb2xpb1xccGFnZXNcXHByb2plY3RzLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0IGZyb20gJ3JlYWN0J1xyXG5pbXBvcnQgTGF5b3V0IGZyb20gJy4vLi4vY29tcG9uZW50cy9MYXlvdXQnO1xyXG5pbXBvcnQgUHJvamVjdExpc3QgZnJvbSAnLi8uLi9jb21wb25lbnRzL1Byb2plY3RMaXN0JztcclxuXHJcbmNvbnN0IHByb2plY3RzID0gW1xyXG5cdC8qe1xyXG5cdFx0bmFtZTogXCJSZXhcIixcclxuXHRcdGRlc2NyaXB0aW9uOiBbXCJBbiBhbGwgaW4gb25lIENMSSBBcHBsaWNhdGlvbiB0aGF0IGNhbjogXCIsIFwiUGFyc2UgdGhlIG1haWwgYm9keSBmb3IgZGF0ZXMgYW5kIHRoZW4gYWRkIGEgR29vZ2xlIENhbGVuZGFyIEV2ZW50XCIsIFwiUGFyc2UgTWVkaXVtIERhaWx5IERpZ2VzdCBNYWlscyBhbmQgb3BlbiBibG9nIGxpbmtzIGluIHRoZSBicm93c2VyLlwiLCBcIlVwbG9hZCwgZG93bmxvYWQgYW5kIHNoYXJlIGZpbGVzIG9uIEdvb2dsZSBEcml2ZVwiLCBcIk1haW50YWluIGEgcmVjb3JkIG9mIGFsbCBhcHBsaWVkIGludGVybnNoaXBzL2pvYnNcIiwgXCJNYW5hZ2UgVG9kb3NcIl0sIFxyXG5cdFx0dGVjaG5vbG9naWVzOiBbXCJOb2RlLmpzXCIsIFwiSmF2YXNjcmlwdFwiLCBcIkdNQUlMIEFQSVwiLFwiR29vZ2xlIERyaXZlIEFQSVwiLFwiR29vZ2xlIENhbGVuZGFyIEFQSS5cIl0sXHJcblx0XHRsaW5rOiBcImh0dHBzOi8vZ2l0aHViLmNvbS9KYWlQYXJha2gvUmV4XCIsXHJcblx0XHRpbWc6IFwiXCJcclxuXHR9LCovXHJcblx0e1xyXG5cdFx0bmFtZTogXCJDdXJhIChHb29nbGUgQnVpbGQgRm9yIERpZ2l0YWwgSW5kaWEpXCIsXHJcblx0XHRkZXNjcmlwdGlvbjogW1wiQ3VyYSBpcyBhbiBhcHBsaWNhdGlvbiB0aGF0IGxldHMgdXNlcnMgYWRkIHRoZSBmb29kIGl0ZW1zIHRoZXkgYXJlIGFsbGVyZ2ljIHRvIGFuZCBwcmVkaWN0cyB0aGUgaW5ncmVkaWVudC9pdGVtIHJlc3BvbnNpYmxlLCB1c2luZyBBcHJpb3JpIGFsZ29yaXRobS5cIixcIk15IHRlYW0gd2FzIGFtb25nc3QgdGhlIDYxIHRlYW1zIHNlbGVjdGVkIGFjcm9zcyBJbmRpYSBmcm9tIDMuM2srIHRlYW1zLlwiXSxcclxuXHRcdHRlY2hub2xvZ2llczogW1wiSmF2YXNjcmlwdFwiLCBcIlJlYWN0XCIsIFwiTm9kZS5qc1wiLCBcIlB5dGhvblwiLCBcIkZpcmViYXNlIE1MIEtpdFwiLCBcIkZpcmViYXNlXCJdLFxyXG5cdFx0bGluazogXCJodHRwczovL2dpdGh1Yi5jb20vSmFpUGFyYWtoL0N1cmFcIixcclxuXHRcdGltZzogXCJDdXJhLTMuanBnXCJcclxuXHR9LFxyXG5cdHtcclxuXHRcdG5hbWU6IFwiU3R1ZHkgSmFtbVwiLFxyXG5cdFx0ZGVzY3JpcHRpb246IFtcIkEgTUVSTiBTdGFjayBhcHBsaWNhdGlvbiB0aGF0IGxldHMgdXNlcnMg76yBbmQgbWVudG9ycyBpbiB0aGVpciB2aWNpbml0eS5cIixcIkl0IERldGVjdHMgdGhlIHVzZXIncyBsb2NhdGlvbiBhbmQgcGxvdHMgYWxsIHR1dG9ycyB3aXRoaW4gdGhlIHNwZWNpZmllZCByYWRpdXMuXCIsXCJJdCB3YXMgdXAgYW5kIHJ1bm5pbmcgZm9yIDYgZGF5cywgZHVyaW5nIHdoaWNoIGl0IGhhZCA2MCB1c2VycyByZWdpc3RlcmVkIG9uIHRoZSBwbGF0Zm9ybSBhbmQgYXJvdW5kIDggYWN0aXZlIHVzZXJzIG9uIHRoZSBkYXkgb2YgcHJvamVjdCBldmFsdWF0aW9uLlwiXSxcclxuXHRcdHRlY2hub2xvZ2llczogW1wiTW9uZ29EQlwiLCBcIlJlYWN0XCIsIFwiTm9kZS5qc1wiLCBcIkV4cHJlc3NcIiwgXCJPcGVubGF5ZXJzIE1hcFwiXSxcclxuXHRcdGxpbms6IFwiaHR0cHM6Ly9naXRodWIuY29tL0phaVBhcmFraC9TdHVkeS1KYW1tXCIsXHJcblx0XHRpbWc6IFwiU3R1ZHktSmFtbS0yLnBuZ1wiXHJcblx0fVxyXG5dXHJcblxyXG5leHBvcnQgZGVmYXVsdCBjbGFzcyBQcm9qZWN0cyBleHRlbmRzIFJlYWN0LkNvbXBvbmVudCB7XHJcbiAgICBcclxuICAgIHJlbmRlcigpIHtcclxuICAgICAgICByZXR1cm4gKFxyXG4gICAgICAgICAgICA8TGF5b3V0PlxyXG4gICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJjb250YWluZXJcIj5cclxuXHRcdFx0XHR7XHJcblx0XHRcdFx0XHRwcm9qZWN0cy5tYXAoKHApID0+IHtcclxuXHRcdFx0XHRcdFx0cmV0dXJuIDxQcm9qZWN0TGlzdCBuYW1lPXtwLm5hbWV9IGJvZHk9e3AuZGVzY3JpcHRpb259IHRlY2hub2xvZ2llcz17cC50ZWNobm9sb2dpZXN9IGxpbms9e3AubGlua30gaW1nPXtwLmltZ30gLz5cclxuXHRcdFx0XHRcdH0pXHJcblx0XHRcdFx0fVxyXG5cdFx0XHRcdDwvZGl2PlxyXG5cdFx0XHRcdDxzdHlsZSBqc3g+e2BcclxuXHRcdFx0XHQuY29udGFpbmVye1xyXG5cdFx0XHRcdFx0bWF4LWhlaWdodDogMTAwdmg7XHJcblx0XHRcdFx0XHRvdmVyZmxvdy15OiBzY3JvbGw7XHJcblx0XHRcdFx0XHRwYWRkaW5nOiAxZW0gMWVtIDJlbSAwZW07XHJcblx0XHRcdFx0fVxyXG5cdFx0XHRcdC5jb250YWluZXI6Oi13ZWJraXQtc2Nyb2xsYmFyIHsgd2lkdGg6IDAgIWltcG9ydGFudCB9XHJcblx0XHRcdGB9PC9zdHlsZT5cclxuICAgICAgICAgICAgPC9MYXlvdXQ+XHJcbiAgICAgICAgKVxyXG4gICAgfVxyXG59Il19 */\n/*@ sourceURL=D:\\\\College\\\\Projects\\\\Web-Dev\\\\Portfolio\\\\pages\\\\projects.js */"));
     }
   }]);
 
@@ -6158,7 +6153,7 @@ var Projects = /*#__PURE__*/function (_React$Component) {
 
 /***/ }),
 
-/***/ 2:
+/***/ 3:
 /*!**********************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fprojects&absolutePagePath=D%3A%5CCollege%5CProjects%5CWeb-Dev%5CPortfolio%5Cpages%5Cprojects.js ***!
   \**********************************************************************************************************************************************/
@@ -6181,5 +6176,5 @@ module.exports = dll_82519ec661270f7f484f;
 
 /***/ })
 
-},[[2,"static/runtime/webpack.js"]]]);
+},[[3,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=projects.js.map

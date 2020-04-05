@@ -14,7 +14,6 @@ class Sidepanel extends React.Component {
             <style jsx>{`
             .col-md-3{
                 border-right: 2px solid #fff;
-                height: 100%;
                 padding-right: 0px !important;
             }
         `}</style>

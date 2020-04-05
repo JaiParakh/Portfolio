@@ -15,7 +15,7 @@ const Layout = (props) => {
             <style jsx>{`
         .bg{
             background-color: #1e2227;
-            height: 100vh;
+            overflow-x: hidden;
             color: #fff;
             display: flex;
         }

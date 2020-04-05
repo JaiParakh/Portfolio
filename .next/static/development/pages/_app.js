@@ -15,6 +15,25 @@ module.exports = _arrayWithHoles;
 
 /***/ }),
 
+/***/ "./node_modules/@babel/runtime/helpers/assertThisInitialized.js":
+/*!**********************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/assertThisInitialized.js ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+function _assertThisInitialized(self) {
+  if (self === void 0) {
+    throw new ReferenceError("this hasn't been initialised - super() hasn't been called");
+  }
+
+  return self;
+}
+
+module.exports = _assertThisInitialized;
+
+/***/ }),
+
 /***/ "./node_modules/@babel/runtime/helpers/classCallCheck.js":
 /*!***************************************************************!*\
   !*** ./node_modules/@babel/runtime/helpers/classCallCheck.js ***!
@@ -102,33 +121,49 @@ module.exports = _createClass;
 
 /***/ }),
 
-/***/ "./node_modules/@babel/runtime/helpers/esm/extends.js":
-/*!************************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/esm/extends.js ***!
-  \************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ "./node_modules/@babel/runtime/helpers/getPrototypeOf.js":
+/*!***************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/getPrototypeOf.js ***!
+  \***************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
 
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _extends; });
-function _extends() {
-  _extends = Object.assign || function (target) {
-    for (var i = 1; i < arguments.length; i++) {
-      var source = arguments[i];
-
-      for (var key in source) {
-        if (Object.prototype.hasOwnProperty.call(source, key)) {
-          target[key] = source[key];
-        }
-      }
-    }
-
-    return target;
+function _getPrototypeOf(o) {
+  module.exports = _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) {
+    return o.__proto__ || Object.getPrototypeOf(o);
   };
-
-  return _extends.apply(this, arguments);
+  return _getPrototypeOf(o);
 }
+
+module.exports = _getPrototypeOf;
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime/helpers/inherits.js":
+/*!*********************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/inherits.js ***!
+  \*********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var setPrototypeOf = __webpack_require__(/*! ./setPrototypeOf */ "./node_modules/@babel/runtime/helpers/setPrototypeOf.js");
+
+function _inherits(subClass, superClass) {
+  if (typeof superClass !== "function" && superClass !== null) {
+    throw new TypeError("Super expression must either be null or a function");
+  }
+
+  subClass.prototype = Object.create(superClass && superClass.prototype, {
+    constructor: {
+      value: subClass,
+      writable: true,
+      configurable: true
+    }
+  });
+  if (superClass) setPrototypeOf(subClass, superClass);
+}
+
+module.exports = _inherits;
 
 /***/ }),
 
@@ -270,6 +305,29 @@ module.exports = _nonIterableRest;
 
 /***/ }),
 
+/***/ "./node_modules/@babel/runtime/helpers/possibleConstructorReturn.js":
+/*!**************************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/possibleConstructorReturn.js ***!
+  \**************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var _typeof = __webpack_require__(/*! ../helpers/typeof */ "./node_modules/@babel/runtime/helpers/typeof.js");
+
+var assertThisInitialized = __webpack_require__(/*! ./assertThisInitialized */ "./node_modules/@babel/runtime/helpers/assertThisInitialized.js");
+
+function _possibleConstructorReturn(self, call) {
+  if (call && (_typeof(call) === "object" || typeof call === "function")) {
+    return call;
+  }
+
+  return assertThisInitialized(self);
+}
+
+module.exports = _possibleConstructorReturn;
+
+/***/ }),
+
 /***/ "./node_modules/@babel/runtime/helpers/setPrototypeOf.js":
 /*!***************************************************************!*\
   !*** ./node_modules/@babel/runtime/helpers/setPrototypeOf.js ***!
@@ -350,121 +408,6 @@ module.exports = __webpack_require__(/*! regenerator-runtime */ "./node_modules/
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/react-image-timeline/dist/timeline.css":
-/*!*************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-oneOf-5-1!./node_modules/postcss-loader/src??__nextjs_postcss!./node_modules/react-image-timeline/dist/timeline.css ***!
-  \*************************************************************************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(/*! ../../css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(true);
-// Module
-exports.push([module.i, "*,\n*:after,\n*:before {\n  box-sizing: border-box; }\n\nh1,\nh2,\nh3,\nh4,\nh5,\np {\n  margin: 0;\n  padding: 0; }\n\nh2 {\n  font-size: 1.75em; }\n\n.rt-timeline-container {\n  padding: 1em;\n  justify-content: center;\n  align-items: center;\n  display: flex; }\n\n.rt-timeline {\n  max-width: 1600px;\n  padding: 0em;\n  list-style-type: none;\n  background: url(\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAJCAYAAADgkQYQAAAAAXNSR0IArs4c6QAAAAlwSFlzAAALEwAACxMBAJqcGAAAA6ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IlhNUCBDb3JlIDUuNC4wIj4KICAgPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4KICAgICAgPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIKICAgICAgICAgICAgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIgogICAgICAgICAgICB4bWxuczp0aWZmPSJodHRwOi8vbnMuYWRvYmUuY29tL3RpZmYvMS4wLyIKICAgICAgICAgICAgeG1sbnM6ZXhpZj0iaHR0cDovL25zLmFkb2JlLmNvbS9leGlmLzEuMC8iPgogICAgICAgICA8eG1wOk1vZGlmeURhdGU+MjAxNi0wNC0wM1QyMzowNDo4MjwveG1wOk1vZGlmeURhdGU+CiAgICAgICAgIDx4bXA6Q3JlYXRvclRvb2w+UGl4ZWxtYXRvciAzLjQuMjwveG1wOkNyZWF0b3JUb29sPgogICAgICAgICA8dGlmZjpPcmllbnRhdGlvbj4xPC90aWZmOk9yaWVudGF0aW9uPgogICAgICAgICA8dGlmZjpDb21wcmVzc2lvbj41PC90aWZmOkNvbXByZXNzaW9uPgogICAgICAgICA8dGlmZjpSZXNvbHV0aW9uVW5pdD4yPC90aWZmOlJlc29sdXRpb25Vbml0PgogICAgICAgICA8dGlmZjpZUmVzb2x1dGlvbj43MjwvdGlmZjpZUmVzb2x1dGlvbj4KICAgICAgICAgPHRpZmY6WFJlc29sdXRpb24+NzI8L3RpZmY6WFJlc29sdXRpb24+CiAgICAgICAgIDxleGlmOlBpeGVsWERpbWVuc2lvbj45PC9leGlmOlBpeGVsWERpbWVuc2lvbj4KICAgICAgICAgPGV4aWY6Q29sb3JTcGFjZT4xPC9leGlmOkNvbG9yU3BhY2U+CiAgICAgICAgIDxleGlmOlBpeGVsWURpbWVuc2lvbj45PC9leGlmOlBpeGVsWURpbWVuc2lvbj4KICAgICAgPC9yZGY6RGVzY3JpcHRpb24+CiAgIDwvcmRmOlJERj4KPC94OnhtcG1ldGE+Cux0bOIAAABoSURBVBgZY2CgFmCEGVRYWCjk5ORUwcbG5vrr16/d+/bt6+jv738HkmeCKYIqKAXyDYAKS0F8mBxcEcgEmCCIRubDFYGsQFaEzGeGSUhISJyVk5NjYmZm5gYqWAxy04kTJ77D5KlDAwD54yLs/6kqyAAAAABJRU5ErkJggg==\");\n  background-repeat: repeat-y;\n  background-position: 50% 0; }\n\n.rt-label-container {\n  clear: both;\n  margin: 1em auto 1em auto;\n  display: flex;\n  justify-content: center; }\n  .rt-label-container:first-of-type {\n    margin-top: 0 !important; }\n  .rt-label-container:last-of-type {\n    margin-bottom: 0; }\n\n.rt-label {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  color: white;\n  border-radius: 50%;\n  background: #4a5c7b;\n  font-size: 2em;\n  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.4);\n  width: 3em;\n  height: 3em; }\n\n.rt-clear {\n  clear: both; }\n\n.rt-backing {\n  border-radius: 0.35em;\n  background: #f0f0f0;\n  color: #313740;\n  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.4); }\n\n.rt-event {\n  position: relative;\n  float: right;\n  clear: right;\n  width: 45%;\n  margin-top: 2em;\n  margin-left: 0;\n  margin-right: 0;\n  list-style-type: none;\n  display: block;\n  min-height: 800px; }\n  @media all and (max-width: 600px) {\n    .rt-event {\n      min-height: auto;\n      width: 85%; }\n      .rt-event svg {\n        display: none; }\n      .rt-event .rt-dot {\n        display: none; } }\n  .rt-event .rt-dot {\n    position: absolute;\n    margin-top: 20px;\n    left: -13.5%;\n    right: auto;\n    fill: currentcolor;\n    color: #6b81a6;\n    width: 5%;\n    z-index: 100; }\n  .rt-event .rt-svg-container {\n    position: relative; }\n    .rt-event .rt-svg-container svg {\n      transform: scale(-1, 1); }\n    .rt-event .rt-svg-container .rt-arrow {\n      z-index: 100;\n      position: absolute;\n      margin-top: 20px;\n      left: -5%;\n      right: auto;\n      fill: currentcolor;\n      width: 5.25%;\n      color: #6b81a6; }\n  .rt-event:nth-of-type(2n) {\n    float: left;\n    clear: left;\n    text-align: right; }\n    .rt-event:nth-of-type(2n) svg {\n      transform: scale(1, 1); }\n    .rt-event:nth-of-type(2n) .rt-arrow {\n      left: auto;\n      right: -5%; }\n    .rt-event:nth-of-type(2n) .rt-dot {\n      left: auto;\n      right: -13.5%; }\n\nli:nth-child(3) {\n  margin-top: 400px; }\n  @media all and (max-width: 600px) {\n    li:nth-child(3) {\n      margin-top: 1em; } }\n\n.rt-title {\n  margin: 4px;\n  font-weight: bold; }\n\n.rt-date {\n  margin: 4px;\n  font-weight: normal; }\n\n.rt-header-container {\n  color: white;\n  padding: 0.25em;\n  background-color: #6b81a6;\n  border-radius: 0.35em 0.35em 0 0;\n  overflow: hidden; }\n\n.rt-image-container {\n  padding: 0;\n  overflow: hidden; }\n\n.rt-image {\n  vertical-align: top;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  margin: 0;\n  width: 100%;\n  height: auto;\n  max-width: 100%;\n  max-height: 600px;\n  -o-object-fit: contain;\n     object-fit: contain; }\n\n.rt-footer-container {\n  padding: 0.5em;\n  justify-content: center;\n  align-items: center;\n  display: flex;\n  overflow: hidden; }\n\n.rt-btn {\n  text-align: center;\n  background-color: #313740;\n  font-size: 1.5em;\n  font-weight: bold;\n  cursor: pointer;\n  white-space: nowrap;\n  overflow: hidden;\n  text-overflow: ellipsis;\n  border-radius: 0.35em;\n  padding: 0.5em;\n  width: 100%;\n  color: white;\n  text-decoration: none; }\n\n.rt-text-container {\n  padding: 0.5em;\n  max-height: 200px;\n  font-weight: lighter;\n  overflow: hidden;\n  text-overflow: ellipsis;\n  content: '';\n  position: relative;\n  text-align: left; }\n\n.rt-text-container:before {\n  content: '';\n  font-weight: lighter;\n  width: 100%;\n  height: 80px;\n  position: absolute;\n  left: 0;\n  top: 120px;\n  background: transparent;\n  /* For Safari 5.1 to 6.0 */\n  /* For Opera 11.1 to 12.0 */\n  /* For Firefox 3.6 to 15 */\n  background: linear-gradient(rgba(255, 255, 255, 0), #f0f0f0);\n  /* Standard syntax */ }\n", "",{"version":3,"sources":["timeline.css"],"names":[],"mappings":"AAAA;;;EAKE,sBAAsB,EAAE;;AAE1B;;;;;;EAME,SAAS;EACT,UAAU,EAAE;;AAEd;EACE,iBAAiB,EAAE;;AAErB;EACE,YAAY;EACZ,uBAAuB;EACvB,mBAAmB;EACnB,aAAa,EAAE;;AAEjB;EACE,iBAAiB;EACjB,YAAY;EACZ,qBAAqB;EACrB,6hDAA6hD;EAC7hD,2BAA2B;EAC3B,0BAA0B,EAAE;;AAE9B;EACE,WAAW;EACX,yBAAyB;EACzB,aAAa;EACb,uBAAuB,EAAE;EACzB;IACE,wBAAwB,EAAE;EAC5B;IACE,gBAAgB,EAAE;;AAEtB;EACE,aAAa;EACb,uBAAuB;EACvB,mBAAmB;EACnB,YAAY;EACZ,kBAAkB;EAClB,mBAAmB;EACnB,cAAc;EACd,wCAAwC;EACxC,UAAU;EACV,WAAW,EAAE;;AAEf;EACE,WAAW,EAAE;;AAEf;EACE,qBAAqB;EACrB,mBAAmB;EACnB,cAAc;EACd,wCAAwC,EAAE;;AAE5C;EACE,kBAAkB;EAClB,YAAY;EACZ,YAAY;EACZ,UAAU;EACV,eAAe;EACf,cAAc;EACd,eAAe;EACf,qBAAqB;EACrB,cAAc;EACd,iBAAiB,EAAE;EACnB;IACE;MACE,gBAAgB;MAChB,UAAU,EAAE;MACZ;QACE,aAAa,EAAE;MACjB;QACE,aAAa,EAAE,EAAE;EACvB;IACE,kBAAkB;IAClB,gBAAgB;IAChB,YAAY;IACZ,WAAW;IACX,kBAAkB;IAClB,cAAc;IACd,SAAS;IACT,YAAY,EAAE;EAChB;IACE,kBAAkB,EAAE;IACpB;MACE,uBAAuB,EAAE;IAC3B;MACE,YAAY;MACZ,kBAAkB;MAClB,gBAAgB;MAChB,SAAS;MACT,WAAW;MACX,kBAAkB;MAClB,YAAY;MACZ,cAAc,EAAE;EACpB;IACE,WAAW;IACX,WAAW;IACX,iBAAiB,EAAE;IACnB;MACE,sBAAsB,EAAE;IAC1B;MACE,UAAU;MACV,UAAU,EAAE;IACd;MACE,UAAU;MACV,aAAa,EAAE;;AAErB;EACE,iBAAiB,EAAE;EACnB;IACE;MACE,eAAe,EAAE,EAAE;;AAEzB;EACE,WAAW;EACX,iBAAiB,EAAE;;AAErB;EACE,WAAW;EACX,mBAAmB,EAAE;;AAEvB;EACE,YAAY;EACZ,eAAe;EACf,yBAAyB;EACzB,gCAAgC;EAChC,gBAAgB,EAAE;;AAEpB;EACE,UAAU;EACV,gBAAgB,EAAE;;AAEpB;EACE,mBAAmB;EACnB,aAAa;EACb,mBAAmB;EACnB,uBAAuB;EACvB,SAAS;EACT,WAAW;EACX,YAAY;EACZ,eAAe;EACf,iBAAiB;EACjB,sBAAmB;KAAnB,mBAAmB,EAAE;;AAEvB;EACE,cAAc;EACd,uBAAuB;EACvB,mBAAmB;EACnB,aAAa;EACb,gBAAgB,EAAE;;AAEpB;EACE,kBAAkB;EAClB,yBAAyB;EACzB,gBAAgB;EAChB,iBAAiB;EACjB,eAAe;EACf,mBAAmB;EACnB,gBAAgB;EAChB,uBAAuB;EACvB,qBAAqB;EACrB,cAAc;EACd,WAAW;EACX,YAAY;EACZ,qBAAqB,EAAE;;AAEzB;EACE,cAAc;EACd,iBAAiB;EACjB,oBAAoB;EACpB,gBAAgB;EAChB,uBAAuB;EACvB,WAAW;EACX,kBAAkB;EAClB,gBAAgB,EAAE;;AAEpB;EACE,WAAW;EACX,oBAAoB;EACpB,WAAW;EACX,YAAY;EACZ,kBAAkB;EAClB,OAAO;EACP,UAAU;EACV,uBAAuB;EAEvB,0BAA0B;EAE1B,2BAA2B;EAE3B,0BAA0B;EAC1B,4DAA4D;EAC5D,oBAAoB,EAAE","file":"timeline.css","sourcesContent":["*,\n*:after,\n*:before {\n  -webkit-box-sizing: border-box;\n  -moz-box-sizing: border-box;\n  box-sizing: border-box; }\n\nh1,\nh2,\nh3,\nh4,\nh5,\np {\n  margin: 0;\n  padding: 0; }\n\nh2 {\n  font-size: 1.75em; }\n\n.rt-timeline-container {\n  padding: 1em;\n  justify-content: center;\n  align-items: center;\n  display: flex; }\n\n.rt-timeline {\n  max-width: 1600px;\n  padding: 0em;\n  list-style-type: none;\n  background: url(\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAJCAYAAADgkQYQAAAAAXNSR0IArs4c6QAAAAlwSFlzAAALEwAACxMBAJqcGAAAA6ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IlhNUCBDb3JlIDUuNC4wIj4KICAgPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4KICAgICAgPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIKICAgICAgICAgICAgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIgogICAgICAgICAgICB4bWxuczp0aWZmPSJodHRwOi8vbnMuYWRvYmUuY29tL3RpZmYvMS4wLyIKICAgICAgICAgICAgeG1sbnM6ZXhpZj0iaHR0cDovL25zLmFkb2JlLmNvbS9leGlmLzEuMC8iPgogICAgICAgICA8eG1wOk1vZGlmeURhdGU+MjAxNi0wNC0wM1QyMzowNDo4MjwveG1wOk1vZGlmeURhdGU+CiAgICAgICAgIDx4bXA6Q3JlYXRvclRvb2w+UGl4ZWxtYXRvciAzLjQuMjwveG1wOkNyZWF0b3JUb29sPgogICAgICAgICA8dGlmZjpPcmllbnRhdGlvbj4xPC90aWZmOk9yaWVudGF0aW9uPgogICAgICAgICA8dGlmZjpDb21wcmVzc2lvbj41PC90aWZmOkNvbXByZXNzaW9uPgogICAgICAgICA8dGlmZjpSZXNvbHV0aW9uVW5pdD4yPC90aWZmOlJlc29sdXRpb25Vbml0PgogICAgICAgICA8dGlmZjpZUmVzb2x1dGlvbj43MjwvdGlmZjpZUmVzb2x1dGlvbj4KICAgICAgICAgPHRpZmY6WFJlc29sdXRpb24+NzI8L3RpZmY6WFJlc29sdXRpb24+CiAgICAgICAgIDxleGlmOlBpeGVsWERpbWVuc2lvbj45PC9leGlmOlBpeGVsWERpbWVuc2lvbj4KICAgICAgICAgPGV4aWY6Q29sb3JTcGFjZT4xPC9leGlmOkNvbG9yU3BhY2U+CiAgICAgICAgIDxleGlmOlBpeGVsWURpbWVuc2lvbj45PC9leGlmOlBpeGVsWURpbWVuc2lvbj4KICAgICAgPC9yZGY6RGVzY3JpcHRpb24+CiAgIDwvcmRmOlJERj4KPC94OnhtcG1ldGE+Cux0bOIAAABoSURBVBgZY2CgFmCEGVRYWCjk5ORUwcbG5vrr16/d+/bt6+jv738HkmeCKYIqKAXyDYAKS0F8mBxcEcgEmCCIRubDFYGsQFaEzGeGSUhISJyVk5NjYmZm5gYqWAxy04kTJ77D5KlDAwD54yLs/6kqyAAAAABJRU5ErkJggg==\");\n  background-repeat: repeat-y;\n  background-position: 50% 0; }\n\n.rt-label-container {\n  clear: both;\n  margin: 1em auto 1em auto;\n  display: flex;\n  justify-content: center; }\n  .rt-label-container:first-of-type {\n    margin-top: 0 !important; }\n  .rt-label-container:last-of-type {\n    margin-bottom: 0; }\n\n.rt-label {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  color: white;\n  border-radius: 50%;\n  background: #4a5c7b;\n  font-size: 2em;\n  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.4);\n  width: 3em;\n  height: 3em; }\n\n.rt-clear {\n  clear: both; }\n\n.rt-backing {\n  border-radius: 0.35em;\n  background: #f0f0f0;\n  color: #313740;\n  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.4); }\n\n.rt-event {\n  position: relative;\n  float: right;\n  clear: right;\n  width: 45%;\n  margin-top: 2em;\n  margin-left: 0;\n  margin-right: 0;\n  list-style-type: none;\n  display: block;\n  min-height: 800px; }\n  @media all and (max-width: 600px) {\n    .rt-event {\n      min-height: auto;\n      width: 85%; }\n      .rt-event svg {\n        display: none; }\n      .rt-event .rt-dot {\n        display: none; } }\n  .rt-event .rt-dot {\n    position: absolute;\n    margin-top: 20px;\n    left: -13.5%;\n    right: auto;\n    fill: currentcolor;\n    color: #6b81a6;\n    width: 5%;\n    z-index: 100; }\n  .rt-event .rt-svg-container {\n    position: relative; }\n    .rt-event .rt-svg-container svg {\n      transform: scale(-1, 1); }\n    .rt-event .rt-svg-container .rt-arrow {\n      z-index: 100;\n      position: absolute;\n      margin-top: 20px;\n      left: -5%;\n      right: auto;\n      fill: currentcolor;\n      width: 5.25%;\n      color: #6b81a6; }\n  .rt-event:nth-of-type(2n) {\n    float: left;\n    clear: left;\n    text-align: right; }\n    .rt-event:nth-of-type(2n) svg {\n      transform: scale(1, 1); }\n    .rt-event:nth-of-type(2n) .rt-arrow {\n      left: auto;\n      right: -5%; }\n    .rt-event:nth-of-type(2n) .rt-dot {\n      left: auto;\n      right: -13.5%; }\n\nli:nth-child(3) {\n  margin-top: 400px; }\n  @media all and (max-width: 600px) {\n    li:nth-child(3) {\n      margin-top: 1em; } }\n\n.rt-title {\n  margin: 4px;\n  font-weight: bold; }\n\n.rt-date {\n  margin: 4px;\n  font-weight: normal; }\n\n.rt-header-container {\n  color: white;\n  padding: 0.25em;\n  background-color: #6b81a6;\n  border-radius: 0.35em 0.35em 0 0;\n  overflow: hidden; }\n\n.rt-image-container {\n  padding: 0;\n  overflow: hidden; }\n\n.rt-image {\n  vertical-align: top;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  margin: 0;\n  width: 100%;\n  height: auto;\n  max-width: 100%;\n  max-height: 600px;\n  object-fit: contain; }\n\n.rt-footer-container {\n  padding: 0.5em;\n  justify-content: center;\n  align-items: center;\n  display: flex;\n  overflow: hidden; }\n\n.rt-btn {\n  text-align: center;\n  background-color: #313740;\n  font-size: 1.5em;\n  font-weight: bold;\n  cursor: pointer;\n  white-space: nowrap;\n  overflow: hidden;\n  text-overflow: ellipsis;\n  border-radius: 0.35em;\n  padding: 0.5em;\n  width: 100%;\n  color: white;\n  text-decoration: none; }\n\n.rt-text-container {\n  padding: 0.5em;\n  max-height: 200px;\n  font-weight: lighter;\n  overflow: hidden;\n  text-overflow: ellipsis;\n  content: '';\n  position: relative;\n  text-align: left; }\n\n.rt-text-container:before {\n  content: '';\n  font-weight: lighter;\n  width: 100%;\n  height: 80px;\n  position: absolute;\n  left: 0;\n  top: 120px;\n  background: transparent;\n  background: -webkit-linear-gradient(rgba(255, 255, 255, 0), #f0f0f0);\n  /* For Safari 5.1 to 6.0 */\n  background: -o-linear-gradient(rgba(255, 255, 255, 0), #f0f0f0);\n  /* For Opera 11.1 to 12.0 */\n  background: -moz-linear-gradient(rgba(255, 255, 255, 0), #f0f0f0);\n  /* For Firefox 3.6 to 15 */\n  background: linear-gradient(rgba(255, 255, 255, 0), #f0f0f0);\n  /* Standard syntax */ }\n"]}]);
-
-
-/***/ }),
-
-/***/ "./node_modules/css-loader/dist/runtime/api.js":
-/*!*****************************************************!*\
-  !*** ./node_modules/css-loader/dist/runtime/api.js ***!
-  \*****************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-/*
-  MIT License http://www.opensource.org/licenses/mit-license.php
-  Author Tobias Koppers @sokra
-*/
-// css base code, injected by the css-loader
-// eslint-disable-next-line func-names
-module.exports = function (useSourceMap) {
-  var list = []; // return the list of modules as css string
-
-  list.toString = function toString() {
-    return this.map(function (item) {
-      var content = cssWithMappingToString(item, useSourceMap);
-
-      if (item[2]) {
-        return "@media ".concat(item[2], "{").concat(content, "}");
-      }
-
-      return content;
-    }).join('');
-  }; // import a list of modules into the list
-  // eslint-disable-next-line func-names
-
-
-  list.i = function (modules, mediaQuery) {
-    if (typeof modules === 'string') {
-      // eslint-disable-next-line no-param-reassign
-      modules = [[null, modules, '']];
-    }
-
-    var alreadyImportedModules = {};
-
-    for (var i = 0; i < this.length; i++) {
-      // eslint-disable-next-line prefer-destructuring
-      var id = this[i][0];
-
-      if (id != null) {
-        alreadyImportedModules[id] = true;
-      }
-    }
-
-    for (var _i = 0; _i < modules.length; _i++) {
-      var item = modules[_i]; // skip already imported module
-      // this implementation is not 100% perfect for weird media query combinations
-      // when a module is imported multiple times with different media queries.
-      // I hope this will never occur (Hey this way we have smaller bundles)
-
-      if (item[0] == null || !alreadyImportedModules[item[0]]) {
-        if (mediaQuery && !item[2]) {
-          item[2] = mediaQuery;
-        } else if (mediaQuery) {
-          item[2] = "(".concat(item[2], ") and (").concat(mediaQuery, ")");
-        }
-
-        list.push(item);
-      }
-    }
-  };
-
-  return list;
-};
-
-function cssWithMappingToString(item, useSourceMap) {
-  var content = item[1] || ''; // eslint-disable-next-line prefer-destructuring
-
-  var cssMapping = item[3];
-
-  if (!cssMapping) {
-    return content;
-  }
-
-  if (useSourceMap && typeof btoa === 'function') {
-    var sourceMapping = toComment(cssMapping);
-    var sourceURLs = cssMapping.sources.map(function (source) {
-      return "/*# sourceURL=".concat(cssMapping.sourceRoot).concat(source, " */");
-    });
-    return [content].concat(sourceURLs).concat([sourceMapping]).join('\n');
-  }
-
-  return [content].join('\n');
-} // Adapted from convert-source-map (MIT)
-
-
-function toComment(sourceMap) {
-  // eslint-disable-next-line no-undef
-  var base64 = btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap))));
-  var data = "sourceMappingURL=data:application/json;charset=utf-8;base64,".concat(base64);
-  return "/*# ".concat(data, " */");
-}
-
-/***/ }),
-
 /***/ "./node_modules/native-url/dist/index.js":
 /*!***********************************************!*\
   !*** ./node_modules/native-url/dist/index.js ***!
@@ -478,20 +421,20 @@ var e,t=(e=__webpack_require__(/*! querystring */ "./node_modules/querystring-es
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F_app&absolutePagePath=private-next-pages%2F_app.js!./":
-/*!*********************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F_app&absolutePagePath=private-next-pages%2F_app.js ***!
-  \*********************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F_app&absolutePagePath=next%2Fdist%2Fpages%2F_app!./":
+/*!*******************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F_app&absolutePagePath=next%2Fdist%2Fpages%2F_app ***!
+  \*******************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
     (window.__NEXT_P=window.__NEXT_P||[]).push(["/_app", function() {
-      var mod = __webpack_require__(/*! private-next-pages/_app.js */ "./pages/_app.js")
+      var mod = __webpack_require__(/*! next/dist/pages/_app */ "./node_modules/next/dist/pages/_app.js")
       if(true) {
-        module.hot.accept(/*! private-next-pages/_app.js */ "./pages/_app.js", function() {
+        module.hot.accept(/*! next/dist/pages/_app */ "./node_modules/next/dist/pages/_app.js", function() {
           if(!next.router.components["/_app"]) return
-          var updatedPage = __webpack_require__(/*! private-next-pages/_app.js */ "./pages/_app.js")
+          var updatedPage = __webpack_require__(/*! next/dist/pages/_app */ "./node_modules/next/dist/pages/_app.js")
           next.router.update("/_app", updatedPage)
         })
       }
@@ -1897,6 +1840,177 @@ exports.ST = exports.SP && typeof performance.mark === 'function' && typeof perf
 
 /***/ }),
 
+/***/ "./node_modules/next/dist/pages/_app.js":
+/*!**********************************************!*\
+  !*** ./node_modules/next/dist/pages/_app.js ***!
+  \**********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var _classCallCheck = __webpack_require__(/*! @babel/runtime/helpers/classCallCheck */ "./node_modules/@babel/runtime/helpers/classCallCheck.js");
+
+var _createClass = __webpack_require__(/*! @babel/runtime/helpers/createClass */ "./node_modules/@babel/runtime/helpers/createClass.js");
+
+var _possibleConstructorReturn = __webpack_require__(/*! @babel/runtime/helpers/possibleConstructorReturn */ "./node_modules/@babel/runtime/helpers/possibleConstructorReturn.js");
+
+var _getPrototypeOf = __webpack_require__(/*! @babel/runtime/helpers/getPrototypeOf */ "./node_modules/@babel/runtime/helpers/getPrototypeOf.js");
+
+var _inherits = __webpack_require__(/*! @babel/runtime/helpers/inherits */ "./node_modules/@babel/runtime/helpers/inherits.js");
+
+var _regeneratorRuntime = __webpack_require__(/*! @babel/runtime/regenerator */ "./node_modules/@babel/runtime/regenerator/index.js");
+
+var _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ "./node_modules/@babel/runtime/helpers/interopRequireDefault.js");
+
+exports.__esModule = true;
+exports.Container = Container;
+exports.createUrl = createUrl;
+exports["default"] = void 0;
+
+var _react = _interopRequireDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+
+var _utils = __webpack_require__(/*! ../next-server/lib/utils */ "./node_modules/next/dist/next-server/lib/utils.js");
+
+exports.AppInitialProps = _utils.AppInitialProps;
+/**
+* `App` component is used for initialize of pages. It allows for overwriting and full control of the `page` initialization.
+* This allows for keeping state between navigation, custom error handling, injecting additional data.
+*/
+
+function appGetInitialProps(_ref) {
+  var Component, ctx, pageProps;
+  return _regeneratorRuntime.async(function appGetInitialProps$(_context) {
+    while (1) {
+      switch (_context.prev = _context.next) {
+        case 0:
+          Component = _ref.Component, ctx = _ref.ctx;
+          _context.next = 3;
+          return _regeneratorRuntime.awrap((0, _utils.loadGetInitialProps)(Component, ctx));
+
+        case 3:
+          pageProps = _context.sent;
+          return _context.abrupt("return", {
+            pageProps: pageProps
+          });
+
+        case 5:
+        case "end":
+          return _context.stop();
+      }
+    }
+  }, null, null, null, Promise);
+}
+
+var App = /*#__PURE__*/function (_react$default$Compon) {
+  _inherits(App, _react$default$Compon);
+
+  function App() {
+    _classCallCheck(this, App);
+
+    return _possibleConstructorReturn(this, _getPrototypeOf(App).apply(this, arguments));
+  }
+
+  _createClass(App, [{
+    key: "componentDidCatch",
+    // Kept here for backwards compatibility.
+    // When someone ended App they could call `super.componentDidCatch`.
+    // @deprecated This method is no longer needed. Errors are caught at the top level
+    value: function componentDidCatch(error, _errorInfo) {
+      throw error;
+    }
+  }, {
+    key: "render",
+    value: function render() {
+      var _this$props = this.props,
+          router = _this$props.router,
+          Component = _this$props.Component,
+          pageProps = _this$props.pageProps,
+          __N_SSG = _this$props.__N_SSG,
+          __N_SSP = _this$props.__N_SSP;
+      return _react["default"].createElement(Component, Object.assign({}, pageProps, // we don't add the legacy URL prop if it's using non-legacy
+      // methods like getStaticProps and getServerSideProps
+      !(__N_SSG || __N_SSP) ? {
+        url: createUrl(router)
+      } : {}));
+    }
+  }]);
+
+  return App;
+}(_react["default"].Component);
+
+exports["default"] = App;
+App.origGetInitialProps = appGetInitialProps;
+App.getInitialProps = appGetInitialProps;
+var warnContainer;
+var warnUrl;
+
+if (true) {
+  warnContainer = (0, _utils.execOnce)(function () {
+    console.warn("Warning: the `Container` in `_app` has been deprecated and should be removed. https://err.sh/zeit/next.js/app-container-deprecated");
+  });
+  warnUrl = (0, _utils.execOnce)(function () {
+    console.error("Warning: the 'url' property is deprecated. https://err.sh/zeit/next.js/url-deprecated");
+  });
+} // @deprecated noop for now until removal
+
+
+function Container(p) {
+  if (true) warnContainer();
+  return p.children;
+}
+
+function createUrl(router) {
+  // This is to make sure we don't references the router object at call time
+  var pathname = router.pathname,
+      asPath = router.asPath,
+      query = router.query;
+  return {
+    get query() {
+      if (true) warnUrl();
+      return query;
+    },
+
+    get pathname() {
+      if (true) warnUrl();
+      return pathname;
+    },
+
+    get asPath() {
+      if (true) warnUrl();
+      return asPath;
+    },
+
+    back: function back() {
+      if (true) warnUrl();
+      router.back();
+    },
+    push: function push(url, as) {
+      if (true) warnUrl();
+      return router.push(url, as);
+    },
+    pushTo: function pushTo(href, as) {
+      if (true) warnUrl();
+      var pushRoute = as ? href : '';
+      var pushUrl = as || href;
+      return router.push(pushRoute, pushUrl);
+    },
+    replace: function replace(url, as) {
+      if (true) warnUrl();
+      return router.replace(url, as);
+    },
+    replaceTo: function replaceTo(href, as) {
+      if (true) warnUrl();
+      var replaceRoute = as ? href : '';
+      var replaceUrl = as || href;
+      return router.replace(replaceRoute, replaceUrl);
+    }
+  };
+}
+
+/***/ }),
+
 /***/ "./node_modules/querystring-es3/decode.js":
 /*!************************************************!*\
   !*** ./node_modules/querystring-es3/decode.js ***!
@@ -2103,67 +2217,6 @@ var objectKeys = Object.keys || function (obj) {
 exports.decode = exports.parse = __webpack_require__(/*! ./decode */ "./node_modules/querystring-es3/decode.js");
 exports.encode = exports.stringify = __webpack_require__(/*! ./encode */ "./node_modules/querystring-es3/encode.js");
 
-
-/***/ }),
-
-/***/ "./node_modules/react-image-timeline/dist/timeline.css":
-/*!*************************************************************!*\
-  !*** ./node_modules/react-image-timeline/dist/timeline.css ***!
-  \*************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var content = __webpack_require__(/*! !../../css-loader/dist/cjs.js??ref--5-oneOf-5-1!../../postcss-loader/src??__nextjs_postcss!./timeline.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/react-image-timeline/dist/timeline.css");
-
-if (typeof content === 'string') {
-  content = [[module.i, content, '']];
-}
-
-var options = {}
-
-options.insert = function(element){// These elements should always exist. If they do not,
-// this code should fail.
-var anchorElement=document.querySelector('#__next_css__DO_NOT_USE__');var parentNode=anchorElement.parentNode;// Normally <head>
-// Each style tag should be placed right before our
-// anchor. By inserting before and not after, we do not
-// need to track the last inserted element.
-parentNode.insertBefore(element,anchorElement)// Remember: this is development only code.
-//
-// After styles are injected, we need to remove the
-// <style> tags that set `body { display: none; }`.
-//
-// We use `requestAnimationFrame` as a way to defer
-// this operation since there may be multiple style
-// tags.
-;(self.requestAnimationFrame||setTimeout)(function(){for(var x=document.querySelectorAll('[data-next-hide-fouc]'),i=x.length;i--;){x[i].parentNode.removeChild(x[i]);}});};
-options.singleton = false;
-
-var update = __webpack_require__(/*! ../../style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js")(content, options);
-
-if (content.locals) {
-  module.exports = content.locals;
-}
-
-if (true) {
-  if (!content.locals) {
-    module.hot.accept(
-      /*! !../../css-loader/dist/cjs.js??ref--5-oneOf-5-1!../../postcss-loader/src??__nextjs_postcss!./timeline.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/react-image-timeline/dist/timeline.css",
-      function () {
-        var newContent = __webpack_require__(/*! !../../css-loader/dist/cjs.js??ref--5-oneOf-5-1!../../postcss-loader/src??__nextjs_postcss!./timeline.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/react-image-timeline/dist/timeline.css");
-
-        if (typeof newContent === 'string') {
-          newContent = [[module.i, newContent, '']];
-        }
-        
-        update(newContent);
-      }
-    )
-  }
-
-  module.hot.dispose(function() { 
-    update();
-  });
-}
 
 /***/ }),
 
@@ -3174,341 +3227,14 @@ try {
 
 /***/ }),
 
-/***/ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js":
-/*!****************************************************************************!*\
-  !*** ./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js ***!
-  \****************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var stylesInDom = {};
-
-var isOldIE = function isOldIE() {
-  var memo;
-  return function memorize() {
-    if (typeof memo === 'undefined') {
-      // Test for IE <= 9 as proposed by Browserhacks
-      // @see http://browserhacks.com/#hack-e71d8692f65334173fee715c222cb805
-      // Tests for existence of standard globals is to allow style-loader
-      // to operate correctly into non-standard environments
-      // @see https://github.com/webpack-contrib/style-loader/issues/177
-      memo = Boolean(window && document && document.all && !window.atob);
-    }
-
-    return memo;
-  };
-}();
-
-var getTarget = function getTarget() {
-  var memo = {};
-  return function memorize(target) {
-    if (typeof memo[target] === 'undefined') {
-      var styleTarget = document.querySelector(target); // Special case to return head of iframe instead of iframe itself
-
-      if (window.HTMLIFrameElement && styleTarget instanceof window.HTMLIFrameElement) {
-        try {
-          // This will throw an exception if access to iframe is blocked
-          // due to cross-origin restrictions
-          styleTarget = styleTarget.contentDocument.head;
-        } catch (e) {
-          // istanbul ignore next
-          styleTarget = null;
-        }
-      }
-
-      memo[target] = styleTarget;
-    }
-
-    return memo[target];
-  };
-}();
-
-function listToStyles(list, options) {
-  var styles = [];
-  var newStyles = {};
-
-  for (var i = 0; i < list.length; i++) {
-    var item = list[i];
-    var id = options.base ? item[0] + options.base : item[0];
-    var css = item[1];
-    var media = item[2];
-    var sourceMap = item[3];
-    var part = {
-      css: css,
-      media: media,
-      sourceMap: sourceMap
-    };
-
-    if (!newStyles[id]) {
-      styles.push(newStyles[id] = {
-        id: id,
-        parts: [part]
-      });
-    } else {
-      newStyles[id].parts.push(part);
-    }
-  }
-
-  return styles;
-}
-
-function addStylesToDom(styles, options) {
-  for (var i = 0; i < styles.length; i++) {
-    var item = styles[i];
-    var domStyle = stylesInDom[item.id];
-    var j = 0;
-
-    if (domStyle) {
-      domStyle.refs++;
-
-      for (; j < domStyle.parts.length; j++) {
-        domStyle.parts[j](item.parts[j]);
-      }
-
-      for (; j < item.parts.length; j++) {
-        domStyle.parts.push(addStyle(item.parts[j], options));
-      }
-    } else {
-      var parts = [];
-
-      for (; j < item.parts.length; j++) {
-        parts.push(addStyle(item.parts[j], options));
-      }
-
-      stylesInDom[item.id] = {
-        id: item.id,
-        refs: 1,
-        parts: parts
-      };
-    }
-  }
-}
-
-function insertStyleElement(options) {
-  var style = document.createElement('style');
-
-  if (typeof options.attributes.nonce === 'undefined') {
-    var nonce =  true ? __webpack_require__.nc : undefined;
-
-    if (nonce) {
-      options.attributes.nonce = nonce;
-    }
-  }
-
-  Object.keys(options.attributes).forEach(function (key) {
-    style.setAttribute(key, options.attributes[key]);
-  });
-
-  if (typeof options.insert === 'function') {
-    options.insert(style);
-  } else {
-    var target = getTarget(options.insert || 'head');
-
-    if (!target) {
-      throw new Error("Couldn't find a style target. This probably means that the value for the 'insert' parameter is invalid.");
-    }
-
-    target.appendChild(style);
-  }
-
-  return style;
-}
-
-function removeStyleElement(style) {
-  // istanbul ignore if
-  if (style.parentNode === null) {
-    return false;
-  }
-
-  style.parentNode.removeChild(style);
-}
-/* istanbul ignore next  */
-
-
-var replaceText = function replaceText() {
-  var textStore = [];
-  return function replace(index, replacement) {
-    textStore[index] = replacement;
-    return textStore.filter(Boolean).join('\n');
-  };
-}();
-
-function applyToSingletonTag(style, index, remove, obj) {
-  var css = remove ? '' : obj.css; // For old IE
-
-  /* istanbul ignore if  */
-
-  if (style.styleSheet) {
-    style.styleSheet.cssText = replaceText(index, css);
-  } else {
-    var cssNode = document.createTextNode(css);
-    var childNodes = style.childNodes;
-
-    if (childNodes[index]) {
-      style.removeChild(childNodes[index]);
-    }
-
-    if (childNodes.length) {
-      style.insertBefore(cssNode, childNodes[index]);
-    } else {
-      style.appendChild(cssNode);
-    }
-  }
-}
-
-function applyToTag(style, options, obj) {
-  var css = obj.css;
-  var media = obj.media;
-  var sourceMap = obj.sourceMap;
-
-  if (media) {
-    style.setAttribute('media', media);
-  }
-
-  if (sourceMap && btoa) {
-    css += "\n/*# sourceMappingURL=data:application/json;base64,".concat(btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap)))), " */");
-  } // For old IE
-
-  /* istanbul ignore if  */
-
-
-  if (style.styleSheet) {
-    style.styleSheet.cssText = css;
-  } else {
-    while (style.firstChild) {
-      style.removeChild(style.firstChild);
-    }
-
-    style.appendChild(document.createTextNode(css));
-  }
-}
-
-var singleton = null;
-var singletonCounter = 0;
-
-function addStyle(obj, options) {
-  var style;
-  var update;
-  var remove;
-
-  if (options.singleton) {
-    var styleIndex = singletonCounter++;
-    style = singleton || (singleton = insertStyleElement(options));
-    update = applyToSingletonTag.bind(null, style, styleIndex, false);
-    remove = applyToSingletonTag.bind(null, style, styleIndex, true);
-  } else {
-    style = insertStyleElement(options);
-    update = applyToTag.bind(null, style, options);
-
-    remove = function remove() {
-      removeStyleElement(style);
-    };
-  }
-
-  update(obj);
-  return function updateStyle(newObj) {
-    if (newObj) {
-      if (newObj.css === obj.css && newObj.media === obj.media && newObj.sourceMap === obj.sourceMap) {
-        return;
-      }
-
-      update(obj = newObj);
-    } else {
-      remove();
-    }
-  };
-}
-
-module.exports = function (list, options) {
-  options = options || {};
-  options.attributes = typeof options.attributes === 'object' ? options.attributes : {}; // Force single-tag solution on IE6-9, which has a hard limit on the # of <style>
-  // tags it will allow on a page
-
-  if (!options.singleton && typeof options.singleton !== 'boolean') {
-    options.singleton = isOldIE();
-  }
-
-  var styles = listToStyles(list, options);
-  addStylesToDom(styles, options);
-  return function update(newList) {
-    var mayRemove = [];
-
-    for (var i = 0; i < styles.length; i++) {
-      var item = styles[i];
-      var domStyle = stylesInDom[item.id];
-
-      if (domStyle) {
-        domStyle.refs--;
-        mayRemove.push(domStyle);
-      }
-    }
-
-    if (newList) {
-      var newStyles = listToStyles(newList, options);
-      addStylesToDom(newStyles, options);
-    }
-
-    for (var _i = 0; _i < mayRemove.length; _i++) {
-      var _domStyle = mayRemove[_i];
-
-      if (_domStyle.refs === 0) {
-        for (var j = 0; j < _domStyle.parts.length; j++) {
-          _domStyle.parts[j]();
-        }
-
-        delete stylesInDom[_domStyle.id];
-      }
-    }
-  };
-};
-
-/***/ }),
-
-/***/ "./pages/_app.js":
-/*!***********************!*\
-  !*** ./pages/_app.js ***!
-  \***********************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return MyApp; });
-/* harmony import */ var _babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/extends */ "./node_modules/@babel/runtime/helpers/esm/extends.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var react_image_timeline_dist_timeline_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-image-timeline/dist/timeline.css */ "./node_modules/react-image-timeline/dist/timeline.css");
-/* harmony import */ var react_image_timeline_dist_timeline_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_image_timeline_dist_timeline_css__WEBPACK_IMPORTED_MODULE_2__);
-
-var _jsxFileName = "D:\\College\\Projects\\Web-Dev\\Portfolio\\pages\\_app.js";
-
-var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
-
-function MyApp(_ref) {
-  var Component = _ref.Component,
-      pageProps = _ref.pageProps;
-  return __jsx(Component, Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, pageProps, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 4
-    },
-    __self: this
-  }));
-}
-
-/***/ }),
-
 /***/ 0:
-/*!*******************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2F_app&absolutePagePath=private-next-pages%2F_app.js ./node_modules/next/dist/client/router.js ***!
-  \*******************************************************************************************************************************************/
+/*!*****************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2F_app&absolutePagePath=next%2Fdist%2Fpages%2F_app ./node_modules/next/dist/client/router.js ***!
+  \*****************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! next-client-pages-loader?page=%2F_app&absolutePagePath=private-next-pages%2F_app.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F_app&absolutePagePath=private-next-pages%2F_app.js!./");
+__webpack_require__(/*! next-client-pages-loader?page=%2F_app&absolutePagePath=next%2Fdist%2Fpages%2F_app! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F_app&absolutePagePath=next%2Fdist%2Fpages%2F_app!./");
 module.exports = __webpack_require__(/*! D:\College\Projects\Web-Dev\Portfolio\node_modules\next\dist\client\router.js */"./node_modules/next/dist/client/router.js");
 
 

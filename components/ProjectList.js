@@ -4,9 +4,6 @@ const ProjectList = (props) => {
     return(
         <div>
             
-            <style jsx>{`
-        
-            `}</style>
         </div>
     )
 }
