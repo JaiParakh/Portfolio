@@ -31,21 +31,11 @@ export default class Projects extends React.Component {
     render() {
         return (
             <Layout>
-                <div className="container">
 				{
 					projects.map((p) => {
 						return <ProjectList name={p.name} body={p.description} technologies={p.technologies} link={p.link} img={p.img} />
 					})
 				}
-				</div>
-				<style jsx>{`
-				.container{
-					max-height: 100vh;
-					overflow-y: scroll;
-					padding: 1em 1em 2em 0em;
-				}
-				.container::-webkit-scrollbar { width: 0 !important }
-			`}</style>
             </Layout>
         )
     }

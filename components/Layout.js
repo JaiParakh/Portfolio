@@ -10,7 +10,9 @@ const Layout = (props) => {
             </Head>
             <Sidepanel />
             <div className="col-md-9">
-                {props.children}
+                <div className="container">
+                    {props.children}
+                </div>
             </div>
             <style jsx>{`
         .bg{
@@ -19,6 +21,12 @@ const Layout = (props) => {
             color: #fff;
             display: flex;
         }
+        .container{
+			max-height: 100vh;
+			overflow-y: scroll;
+			padding: 1em 1em 2em 0em;
+		}
+		.container::-webkit-scrollbar { width: 0 !important }
       `}</style>
         </div>
     )

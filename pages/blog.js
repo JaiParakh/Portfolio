@@ -40,21 +40,11 @@ const blogs = [{
 export default function Blog() {
     return (
 		<Layout>
-			<div className="container">
 			{
 				blogs.map((b) => {
 					return <BlogList title={b.title} body={b.body} date={b.date} img={b.img} link={b.link}/>
 				})
 			}
-			</div>
-			<style jsx>{`
-				.container{
-					max-height: 100vh;
-					overflow-y: scroll;
-					padding: 1em 1em 2em 0em;
-				}
-				.container::-webkit-scrollbar { width: 0 !important }
-			`}</style>
 		</Layout>
     );
   }
