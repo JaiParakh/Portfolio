@@ -19,7 +19,7 @@ const Layout = (props) => {
             background-color: #1e2227;
             overflow-x: hidden;
             color: #fff;
-            display: flex;
+            /*display: flex;*/
         }
         .container{
 			max-height: 100vh;
