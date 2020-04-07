@@ -10,7 +10,7 @@ export default class MyTerminal extends React.Component {
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
-        height: "91vh"
+        height: "93.4vh"
       }}>
         <Terminal
           color='green'

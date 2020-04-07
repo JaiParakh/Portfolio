@@ -11,18 +11,23 @@ const Layout = (props) => {
             </Head>
             <Sidepanel />
             <div className="col-md-9">
-                <div className="container">
+                <div className="container cont">
                     {props.children}
                 </div>
             </div>
-            <style jsx>{`
+            <style jsx global>{`
+        body{
+            overflow-x: hidden;
+            margin: 0;
+            padding: 0;
+        }
         .bg{
             background-color: #1e2227;
             overflow-x: hidden;
             color: #fff;
             /*display: flex;*/
         }
-        .container{
+        .cont{
 			max-height: 100vh;
 			overflow-y: scroll;
 			padding: 1em 1em 2em 0em;

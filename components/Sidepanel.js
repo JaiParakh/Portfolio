@@ -2,7 +2,7 @@ import Logo from './Logo'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedinIn, faTwitter, faMediumM, faGithub,faMandalorian } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
-import Link from 'next/link';
+import Link from './Link';
 
 class Sidepanel extends React.Component {
     render(){
@@ -12,27 +12,27 @@ class Sidepanel extends React.Component {
                 <div className="side-nav">
                     <ul className="nav flex-column">
                         <li className="nav-item">
-                            <Link href="/">
+                            <Link activeClassName='active' href="/">
                                 <a className="nav-link">Home</a>
                             </Link>
                         </li>
                         <li className="nav-item">
-                            <Link href="/about">
+                            <Link activeClassName='active' href="/about">
                                 <a className="nav-link">About</a>
                             </Link>
                         </li>
                         <li className="nav-item">
-                            <Link href="/projects">
+                            <Link activeClassName='active' href="/projects">
                                 <a className="nav-link">Projects</a>
                             </Link>
                         </li>
                         <li className="nav-item">
-                            <Link href="/blog">
+                            <Link activeClassName='active' href="/blog">
                                 <a className="nav-link">Blog</a>
                             </Link>
                         </li>
                         <li className="nav-item">
-                            <Link href="/experience">
+                            <Link activeClassName='active' href="/experience">
                                 <a className="nav-link">Experience</a>
                             </Link>
                         </li>
@@ -82,6 +82,11 @@ class Sidepanel extends React.Component {
             
             
             <style jsx>{`
+            .active{
+                border-left: 2px solid #fff;
+                /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.6);*/
+            }
+ 
             .contact{
                 border-left: 2px solid #fff;
                 border-bottom: 2px solid #fff;
@@ -98,7 +103,7 @@ class Sidepanel extends React.Component {
             .nav{
                 border-bottom: 2px solid #fff;
                 border-left: 2px solid #fff;
-                padding: 1em 0em 1em 1em;
+                padding: 1em 2em 1em 2em;
             }
             /*.side-nav{
                 text-align: center;
