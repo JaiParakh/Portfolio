@@ -2,6 +2,13 @@ import Layout from './../components/Layout';
 import BlogList from './../components/BlogList';
 
 const blogs = [{
+	title: "Adding Events With Google Calendar API",
+	body: "In this article, we will see how to add Google Calendar events with Node.js Applications",
+	date: "April 5, 2020",
+	img: "blog-6.jfif",
+	link: "https://medium.com/@parakh.js/adding-events-with-google-calendar-api-and-node-js-62a8d81a38be"
+},
+{
 	title: "Integrating Google APIs with Node.js Applications",
 	body: "In this article, we will see how to integrate Google APIs with Node.js Applications",
 	date: "March 19, 2020",
