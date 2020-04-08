@@ -250,6 +250,10 @@ var MyTerminal = /*#__PURE__*/function (_React$Component) {
       return 'Hello World';
     });
 
+    Object(_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__["default"])(Object(_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this), "about", function () {
+      return '';
+    });
+
     return _this;
   }
 
@@ -265,7 +269,7 @@ var MyTerminal = /*#__PURE__*/function (_React$Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 9
+          lineNumber: 10
         },
         __self: this
       }, __jsx(terminal_in_react__WEBPACK_IMPORTED_MODULE_8___default.a, {
@@ -280,24 +284,47 @@ var MyTerminal = /*#__PURE__*/function (_React$Component) {
           "overflow-y": "hidden"
         },
         commands: {
-          'open-google': function openGoogle() {
-            return window.open('https://www.google.com/', '_blank');
+          'open-github': function openGithub() {
+            return window.open('https://github.com/JaiParakh', '_blank');
           },
-          showmsg: this.showMsg,
-          popup: function popup() {
-            return alert('Terminal in React');
+          'open-linkedin': function openLinkedin() {
+            return window.open('https://www.linkedin.com/in/jai-parakh-5626b4178/', '_blank');
+          },
+          'open-medium': function openMedium() {
+            return window.open('https://medium.com/@parakh.js', '_blank');
+          },
+          'open-twitter': function openTwitter() {
+            return window.open('https://twitter.com/parakh_js', '_blank');
+          },
+          'contact': function contact() {
+            return window.open('https://mail.google.com/mail/u/0/?view=cm&fs=1&to=contact.jaiparakh@gmail.com&tf=1', '_blank');
+          },
+          college: function college() {
+            return 'Jaypee Institute Of Information Technology, Noida';
+          },
+          about: this.about,
+          skills: function skills() {
+            return "[\"Javascript\", \"React\", \"Node.js\", \"Next.js\", \"Express\", \"MongoDB\", \"Python\", \"C++\", \"HTML5\", \"Google Cloud Platform\", \"CSS3\", \"C\", \"PHP\", \"Wordpress\"] \n\n length: 14";
+          },
+          projects: function projects() {
+            return "[\"Cura (Build For Digital India)\", \"Rex\", \"Study Jamm\", \"Coretech\"] \n\n length: 4";
           }
         },
         descriptions: {
-          'open-google': 'opens google.com',
-          showmsg: 'shows a message',
-          alert: 'alert',
-          popup: 'alert'
+          'open-github': 'Opens Github Profile',
+          'open-linkedin': 'Opens Linkedin Profile',
+          'open-medium': 'Opens Medium Profile',
+          'open-twitter': 'Opens Twitter Profile',
+          'contact': 'Contact',
+          'college': 'Where does he study?',
+          'about': 'Who is this Guy?',
+          'skills': 'What are his skills?',
+          'projects': 'What projects has he worked on?'
         },
-        msg: "You can write anything here. Example - Hello! My name is Foo and I like Bar.",
+        msg: "Welcome aboard the Resolute! I am Rex, General Parakh's first in command. To begin with type 'help' to see the list of commands.",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 15
+          lineNumber: 16
         },
         __self: this
       }));
@@ -38267,7 +38294,7 @@ function Index() {
 
 /***/ }),
 
-/***/ 1:
+/***/ 6:
 /*!***********************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=D%3A%5CCollege%5CProjects%5CWeb-Dev%5CPortfolio%5Cpages%5Cindex.js ***!
   \***********************************************************************************************************************************/
@@ -38290,5 +38317,5 @@ module.exports = dll_82519ec661270f7f484f;
 
 /***/ })
 
-},[[1,"static/runtime/webpack.js"]]]);
+},[[6,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=index.js.map

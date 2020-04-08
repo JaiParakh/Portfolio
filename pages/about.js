@@ -1,7 +1,7 @@
 import React from 'react'
 import Layout from './../components/Layout';
 
-const skills = ["Javascript", "React", "Node.js", "Next.js", "Express", "MongoDB", "Python", "HTML5", "Google Cloud Platform", "CSS3", "PHP", "Wordpress"]
+const skills = ["Javascript", "React", "Node.js", "Next.js", "Express", "MongoDB", "Python", "C++", "HTML5", "Google Cloud Platform", "CSS3", "C", "PHP", "Wordpress"]
 
 export default class About extends React.Component {
     
@@ -9,7 +9,7 @@ export default class About extends React.Component {
         return (
             <Layout>
                 <div className="about">
-                    <div className="row">
+                    <div className="row cust">
                         <div className="col-md-6">
                             <img className="img-fluid pic" src="/images/demo.jpg" />
                         </div>
@@ -24,11 +24,17 @@ export default class About extends React.Component {
                             }
                         </div>
                     </div>
+                    <div className="row intro">
+                        <p></p>
+                    </div>
                 </div>
                 <style jsx>{`
-                .about{
-                    height: 91vh;
-                }
+                    .intro{
+                        padding: 2em;
+                    }
+                    .about{
+                        height: 91vh;
+                    }
                     .skills{
                         padding: 2em 2em 2em 3em;
                     }
@@ -40,21 +46,23 @@ export default class About extends React.Component {
                         text-decoration: none;
                         font-family: 'Abril Fatface' !important;
                     }
-                    .row{
+                    .cust{
                         margin: 1em;
                         text-align: justify;
-                        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.6);
                     }
                     .pic{
-                        padding-right: 2em;
-                        margin: 2em 0em 2em 2em;
-                        border-right: 2px solid #fff;
+                        margin-right: 2em;
+                        /*margin: 2em 0em 2em 2em;*/
+                        /*border-right: 2px solid #fff;
+                        */
+                        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.6);
                         width: 100%;
                     }
                     .badge{
                         padding: 0.8em;
                         margin: 0.4em 2em 1em 0em !important;
                         font-size: 1rem;
+                        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.6);
                     }
                 `}</style>
             </Layout>

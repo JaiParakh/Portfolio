@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 8);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -319,6 +319,8 @@ class MyTerminal extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component 
     super(...args);
 
     _defineProperty(this, "showMsg", () => 'Hello World');
+
+    _defineProperty(this, "about", () => '');
   }
 
   render() {
@@ -331,7 +333,7 @@ class MyTerminal extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component 
       },
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 9
+        lineNumber: 10
       },
       __self: this
     }, __jsx(terminal_in_react__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -346,20 +348,31 @@ class MyTerminal extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component 
         "overflow-y": "hidden"
       },
       commands: {
-        'open-google': () => window.open('https://www.google.com/', '_blank'),
-        showmsg: this.showMsg,
-        popup: () => alert('Terminal in React')
+        'open-github': () => window.open('https://github.com/JaiParakh', '_blank'),
+        'open-linkedin': () => window.open('https://www.linkedin.com/in/jai-parakh-5626b4178/', '_blank'),
+        'open-medium': () => window.open('https://medium.com/@parakh.js', '_blank'),
+        'open-twitter': () => window.open('https://twitter.com/parakh_js', '_blank'),
+        'contact': () => window.open('https://mail.google.com/mail/u/0/?view=cm&fs=1&to=contact.jaiparakh@gmail.com&tf=1', '_blank'),
+        college: () => 'Jaypee Institute Of Information Technology, Noida',
+        about: this.about,
+        skills: () => `["Javascript", "React", "Node.js", "Next.js", "Express", "MongoDB", "Python", "C++", "HTML5", "Google Cloud Platform", "CSS3", "C", "PHP", "Wordpress"] \n\n length: 14`,
+        projects: () => `["Cura (Build For Digital India)", "Rex", "Study Jamm", "Coretech"] \n\n length: 4`
       },
       descriptions: {
-        'open-google': 'opens google.com',
-        showmsg: 'shows a message',
-        alert: 'alert',
-        popup: 'alert'
+        'open-github': 'Opens Github Profile',
+        'open-linkedin': 'Opens Linkedin Profile',
+        'open-medium': 'Opens Medium Profile',
+        'open-twitter': 'Opens Twitter Profile',
+        'contact': 'Contact',
+        'college': 'Where does he study?',
+        'about': 'Who is this Guy?',
+        'skills': 'What are his skills?',
+        'projects': 'What projects has he worked on?'
       },
-      msg: "You can write anything here. Example - Hello! My name is Foo and I like Bar.",
+      msg: "Welcome aboard the Resolute! I am Rex, General Parakh's first in command. To begin with type 'help' to see the list of commands.",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 15
+        lineNumber: 16
       },
       __self: this
     }));
@@ -2435,7 +2448,7 @@ function Index() {
 
 /***/ }),
 
-/***/ 3:
+/***/ 8:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/
