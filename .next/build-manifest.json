@@ -20,14 +20,6 @@
       "static/runtime/polyfills.js",
       "static/runtime/polyfills.js.map"
     ],
-    "/blog": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
-    "/experience": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
     "/projects": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
