@@ -4,18 +4,18 @@ import ProjectList from './../components/ProjectList';
 
 const projects = [
 	{
-		name: "Rex",
-		description: ["Parse the mail body for dates and then add a Google Calendar Event", "Parse Medium Daily Digest Mails and open blog links in the browser.", "Upload, download and share files on Google Drive", "Maintain a record of all applied internships/jobs", "Manage Todos"], 
-		technologies: ["Node.js", "Javascript", "GMAIL API","Google Drive API","Google Calendar API"],
-		link: "https://github.com/JaiParakh/Rex",
-		img: ""
-	},
-	{
 		name: "Cura (Google Build For Digital India)",
 		description: ["Cura is an application that lets users add the food items they are allergic to and predict the ingredient/item responsible, using Apriori algorithm.","My team was amongst the 61 teams selected across India from 3.3k+ teams for the Feedback Phase."],
 		technologies: ["Javascript", "React", "Node.js", "Python", "Firebase ML Kit", "Firebase"],
 		link: "https://github.com/JaiParakh/Cura",
-		img: ""
+		img: "Cura.png"
+	},
+	{
+		name: "Rex",
+		description: ["Parse the mail body for dates and then add a Google Calendar Event", "Parse Medium Daily Digest Mails and open blog links in the browser.", "Upload, download and share files on Google Drive", "Maintain a record of all applied internships/jobs and Manage Todos"], 
+		technologies: ["Node.js", "Javascript", "GMAIL API","Google Drive API","Google Calendar API"],
+		link: "https://github.com/JaiParakh/Rex",
+		img: "Rex-2.png"
 	},
 	{
 		name: "Study Jamm",

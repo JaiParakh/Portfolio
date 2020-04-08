@@ -19638,7 +19638,7 @@ var Experiece = /*#__PURE__*/function (_React$Component) {
 
 /***/ }),
 
-/***/ 6:
+/***/ 2:
 /*!**************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fexperience&absolutePagePath=D%3A%5CCollege%5CProjects%5CWeb-Dev%5CPortfolio%5Cpages%5Cexperience.js ***!
   \**************************************************************************************************************************************************/
@@ -19661,5 +19661,5 @@ module.exports = dll_82519ec661270f7f484f;
 
 /***/ })
 
-},[[6,"static/runtime/webpack.js"]]]);
+},[[2,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=experience.js.map

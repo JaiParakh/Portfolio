@@ -5,7 +5,7 @@ const ProjectList = (props) => {
         <div className="card mb-5">
             <div className="row no-gutters">
                 <div className="col-md-4">
-                    <img src={`/images/${props.img}`} className="card-img" alt="..." />
+                    <img src={`/images/${props.img}`} className="card-img row" alt="..." />
                 </div>
                 <div className="col-md-8">
                     <div className="card-body">
@@ -48,9 +48,10 @@ const ProjectList = (props) => {
                     margin: 1em 2em 0em 1em;
                 }
                 .col-md-4{
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
+                    padding: 1em 0em 0em 1em;
+                }
+                img{
+                    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.6);
                 }
                 .badge{
                     margin: 0em 1em 1em 1em !important;
@@ -63,7 +64,8 @@ const ProjectList = (props) => {
                     color: #fff;
                     border-radius: 0;
                     padding: 1em 0em 1em 1em;
-                    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                    border-bottom: 2px solid #fff;
+                    /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
                     margin-bottom: 2em;
                 }
                 a:hover{
