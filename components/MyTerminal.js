@@ -42,7 +42,7 @@ export default class MyTerminal extends React.Component {
             'skills': 'What are his skills?',
             'projects': 'What projects has he worked on?'
           }}
-          msg= "Welcome aboard the Resolute! I am Rex, General Parakh's first in command. To begin with type 'help' to see the list of commands."
+          msg= "Hi, I am Jai, a fullstack Developer, Mentor, Blogger, Gamer and a Jedi. To begin with type 'help' to see the list of commands."
         />
       </div>
     );
