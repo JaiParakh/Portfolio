@@ -3,7 +3,7 @@ import Terminal from 'terminal-in-react';
 export default class MyTerminal extends React.Component {
     
     showMsg = () => 'Hello World'
-    about = () => ''
+    about = () => "I am Jai, 21-year-old currently pursuing Bachelor's degree in Computer Science from Jaypee Institute of Information Technology. I am a full stack developer. I code mostly in Javascript and blog about the technologies I use in my projects. Besides that, I am a core team member at DSC JIIT Noida, where I mentor students on web development. \n\nIn my free time, I play GTA Online and Witcher-3. I love cycling, swimming, and trekking."
  
   render() {
     return (
@@ -42,7 +42,7 @@ export default class MyTerminal extends React.Component {
             'skills': 'What are his skills?',
             'projects': 'What projects has he worked on?'
           }}
-          msg= "Hi, I am Jai, a fullstack Developer, Mentor, Blogger, Gamer and a Jedi. To begin with type 'help' to see the list of commands."
+          msg= "Hi, I am Jai, a Fullstack Developer, Mentor, Blogger, Gamer and a Jedi. To begin with type 'help' to see the list of commands."
         />
       </div>
     );

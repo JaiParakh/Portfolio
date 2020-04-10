@@ -8,6 +8,7 @@ const Layout = (props) => {
             <Head>
                 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossOrigin="anonymous" />
                 <script src="https://kit.fontawesome.com/0eb4df6af5.js" crossOrigin="anonymous"></script>
+                
             </Head>
             <Sidepanel />
             <div className="col-md-9">
@@ -27,8 +28,12 @@ const Layout = (props) => {
             color: #fff;
             /*display: flex;*/
         }
+        @media only screen and (min-width: 500px) { 
+                .cont{ 
+			        max-height: 100vh;       
+                } 
+            }
         .cont{
-			max-height: 100vh;
 			overflow-y: scroll;
 			padding: 1em 1em 2em 0em;
 		}
