@@ -24,13 +24,24 @@ export default class About extends React.Component {
                             }
                         </div>
                     </div>
-                    <div className="row intro">
-                        <p></p>
+                    <div className="intro container">
+                        <p>I am Jai, 21-year-old currently pursuing Bachelor's degree in Computer Science from Jaypee Institute of Information Technology. 
+                        I am a full stack developer. I code mostly in Javascript and blog about the technologies I use in my projects. Besides that, I am a 
+                        core team member at DSC JIIT Noida, where I mentor students on web development.</p>
+
+                        <p>In my free time, I play GTA Online and Witcher-3. I love cycling, swimming, and trekking.</p>
                     </div>
                 </div>
                 <style jsx>{`
                     .intro{
-                        padding: 2em;
+                        padding: 1em 2em 2em 2em;
+                        font-size: 1.4em;
+                        font-weight: 100;
+                        font-family: 'Abril Fatface';
+                        border-top: 2px solid #fff;
+                        margin-top: 2em;
+                        /*font-family: 'Avenir', -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Helvetica Neue", Arial, sans-serif;
+                    */
                     }
                     .about{
                         height: 91vh;

@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLinkedinIn, faTwitter, faMediumM, faGithub,faMandalorian } from '@fortawesome/free-brands-svg-icons';
+import { faLinkedinIn, faTwitter, faMediumM, faGithub, faInstagram, faTwitch } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import Link from './Link';
 
@@ -68,6 +68,13 @@ class Navbar extends React.Component {
                             <Link href="https://twitter.com/parakh_js">
                                 <a>
                                     <FontAwesomeIcon icon={faTwitter} size="2x" />
+                                </a>
+                            </Link>
+                        </div>
+                        <div className="icon">
+                            <Link href="https://www.instagram.com/parakh.js/">
+                                <a>
+                                    <FontAwesomeIcon icon={faInstagram} size="2x" />
                                 </a>
                             </Link>
                         </div>
