@@ -5,7 +5,7 @@ const EventList = (props) => {
                 <div className="col-md-3">
                 <img src={`/images/${props.img}`} className="card-img" alt="..." />
                 </div>
-                <div className="col-md-9">
+                <div className="col-md-9 mt-2">
                     <div className="card-body">
                             <a><h5 className="card-title logo">{props.title}</h5></a>
                             <h5 className="card-subtitle mt-2 mb-4">{props.start_date} - {props.end_date}</h5>

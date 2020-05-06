@@ -36,7 +36,7 @@ const Layout = (props) => {
             }
         .cont{
 			overflow-y: scroll;
-			padding: 1em 1em 2em 0em;
+			padding: 1em 1em 2em 1em;
 		}
 		.container::-webkit-scrollbar { width: 0 !important }
       `}</style>

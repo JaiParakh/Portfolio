@@ -2,6 +2,12 @@ import Layout from './../components/Layout';
 import BlogList from './../components/BlogList';
 
 const blogs = [{
+	title: "My Experience with Google Foobar Challenge.",
+	body: "In this article, I have shared my experience with Google Foobar Challenge.",
+	date: "May 1, 2020",
+	img: "blog-7.png",
+	link: "https://medium.com/@parakh.js/my-experience-with-google-foobar-challenge-60d7cda1fdcc"
+},{
 	title: "Adding Events With Google Calendar API",
 	body: "In this article, we will see how to add Google Calendar events with Node.js Applications",
 	date: "April 5, 2020",

@@ -8,7 +8,7 @@ const ProjectList = (props) => {
                     <img src={`/images/${props.img}`} className="card-img row" alt="..." />
                 </div>
                 <div className="col-md-8">
-                    <div className="card-body">
+                    <div className="card-body mt-3">
                         <h4 className="card-title">{props.name}</h4>
                         {
                             props.name === 'Rex' ? (<p>An all in one CLI Application that can: </p>) : (<div></div>)

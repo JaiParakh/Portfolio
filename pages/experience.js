@@ -3,6 +3,12 @@ import Layout from './../components/Layout';
 import EventList from './../components/EventList';
 
 const events = [{
+    start_date: "4th May 2020",
+    end_date: "Present",
+    text: "I have been tasked with creating a REST API.",
+    title: "Web Developer Intern at Subzcribe",
+    img: "sunzcribe.png",
+},{
     start_date: "9th August 2019",
     end_date: "Present",
     text: "Organized and Mentored several workshops on web development.",

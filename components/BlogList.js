@@ -8,7 +8,7 @@ const BlogList = (props) => {
                 <img src={`/images/${props.img}`} className="card-img" alt="..." />
                 </div>
                 <div className="col-md-9">
-                    <div className="card-body">
+                    <div className="card-body mt-3">
                         <Link href={props.link}>
                             <a><h5 className="card-title logo">{props.title}</h5></a>
                         </Link>
