@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 const ProjectList = (props) => {
     return(
-        <div className="card mb-5">
+        <div className="card">
             <div className="row no-gutters">
                 <div className="col-md-4">
                     <img src={`/images/${props.img}`} className="card-img row" alt="..." />
@@ -66,7 +66,7 @@ const ProjectList = (props) => {
                     padding: 1em 0em 1em 1em;
                     border-bottom: 2px solid #fff;
                     /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
-                    margin-bottom: 2em;
+                    margin-bottom: 1em;
                 }
                 a:hover{
                     text-decoration: none;
@@ -77,6 +77,15 @@ const ProjectList = (props) => {
                 }
                 li{
                     margin-bottom: 0.2em;
+                }
+                
+                @media only screen and (max-width: 450px){
+                    .card-body{
+                        padding: 0em !important;
+                    }
+                    .card{
+                        margin-bottom: 0.5em !important;
+                    }
                 }
       `}</style>
         </div>

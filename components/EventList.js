@@ -41,6 +41,13 @@ const EventList = (props) => {
             padding: 0;
             padding-left: 2em;
         }
+        
+        @media only screen and (max-width: 450px){
+            .card-body{
+                padding-top: 1em !important;
+                padding-left: 0em !important;
+            }
+        }
       `}</style>
         </div>
     )

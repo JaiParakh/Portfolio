@@ -40,6 +40,11 @@ const BlogList = (props) => {
             padding: 0;
             padding-left: 2em;
         }
+        @media only screen and (max-width: 450px){
+            .card-body{
+                padding-left: 0em !important;
+            }
+        }
       `}</style>
         </div>
     )

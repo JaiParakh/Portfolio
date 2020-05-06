@@ -1,7 +1,7 @@
 import React from 'react'
 import Layout from './../components/Layout';
 
-const skills = ["Javascript", "React", "Node.js", "Next.js", "Express", "MongoDB", "Python", "C++", "HTML5", "Google Cloud Platform", "CSS3", "C", "PHP", "Wordpress"]
+const skills = ["Javascript", "React", "Node.js", "Next.js", "Express", "MongoDB", "Python", "C++", "HTML5", "Google Cloud Platform", "CSS3", "C", "PHP", "Wordpress","G Suite APIs"]
 
 export default class About extends React.Component {
     
@@ -48,6 +48,17 @@ export default class About extends React.Component {
                     }
                     .skills{
                         padding: 2em 2em 2em 3em;
+                    }
+
+                    @media only screen and (max-width: 450px){
+                        .skills{
+                            padding: 2em 0em 0em 0em !important;
+                            text-align: justify;
+                        }
+                        .intro{
+                            padding: 1em 0em 0em 0em !important;
+                            text-align: justify;
+                        }
                     }
                     .logo{
                         margin-bottom: 1em;

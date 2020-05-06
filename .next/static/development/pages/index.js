@@ -38379,7 +38379,7 @@ function Index() {
 
 /***/ }),
 
-/***/ 5:
+/***/ 1:
 /*!***********************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=D%3A%5CCollege%5CProjects%5CWeb-Dev%5CPortfolio%5Cpages%5Cindex.js ***!
   \***********************************************************************************************************************************/
@@ -38402,5 +38402,5 @@ module.exports = dll_82519ec661270f7f484f;
 
 /***/ })
 
-},[[5,"static/runtime/webpack.js"]]]);
+},[[1,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=index.js.map
