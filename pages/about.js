@@ -11,7 +11,7 @@ export default class About extends React.Component {
                 <div className="about">
                     <div className="row cust">
                         <div className="col-md-6">
-                            <img className="img-fluid pic" src="/images/demo.jpg" />
+                            <img className="img-fluid pic" src="/images/demo.jpg" alt="Profile Pic" />
                         </div>
                         <div className="col-md-6 skills">
                             <h5 className="card-title logo">My Skills</h5>
