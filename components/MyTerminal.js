@@ -27,7 +27,7 @@ export default class MyTerminal extends React.Component {
             'contact': () => window.open('https://mail.google.com/mail/u/0/?view=cm&fs=1&to=contact.jaiparakh@gmail.com&tf=1', '_blank'),
             college: () => 'Jaypee Institute Of Information Technology, Noida',
             about: this.about,
-            skills: () => `["Javascript", "React", "Node.js", "Next.js", "Express", "MongoDB", "Python", "C++", "HTML5", "Google Cloud Platform", "CSS3", "C", "PHP", "Wordpress"] \n\n length: 14`,
+            skills: () => `["Javascript", "React", "Node.js", "Next.js", "Express", "Ethereum", "Solidity", "Web3.js", "MongoDB", "Python", "C++", "HTML5", "Google Cloud Platform", "CSS3", "C", "PHP", "Wordpress"] \n\n length: 17`,
             projects: () => `["Cura (Build For Digital India)", "Rex", "Study Jamm", "Coretech"] \n\n length: 4`,
             
           }}
