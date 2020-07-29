@@ -69,7 +69,7 @@ export default class About extends React.Component {
                         font-family: 'Abril Fatface' !important;
                     }
                     .cust{
-                        margin: 1em;
+                        margin: 1em 1em 0em 1em;
                         text-align: justify;
                     }
                     .pic{
