@@ -1,7 +1,7 @@
 import React from 'react'
 import Layout from './../components/Layout';
 
-const skills = ["Javascript", "React", "Node.js", "Next.js", "Express", "MongoDB", "Python", "C++", "Web3.js", "Solidity", "Ethereum", "PHP", "HTML5", "Google Cloud Platform", "CSS3", "C", "Wordpress","G Suite APIs"]
+const skills = ["Javascript", "React", "Node.js", "Next.js", "Express", "MongoDB", "Python", "C++", "Web3.js", "Solidity", "Ethereum", "PHP", "React Native", "CSS3", "HTML5", "Google Cloud Platform", "G Suite APIs"]
 
 export default class About extends React.Component {
     
